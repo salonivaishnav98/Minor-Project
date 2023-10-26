@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MPedia"
+        tools:targetApi="31">
+        <activity
+            android:name=".Food"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure15"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure14"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure13"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure12"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure11"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure10"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure9"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure8"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure7"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure6"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure5"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure4"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure3"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure2"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure1"
+            android:exported="false" />
+        <activity
+            android:name=".Adventure"
+            android:exported="false" />
+        <activity
+            android:name=".Textiles"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping"
+            android:exported="false" />
+        <activity
+            android:name=".MusicDance"
+            android:exported="false" />
+        <activity
+            android:name=".BandhavgarhNP"
+            android:exported="false" />
+        <activity
+            android:name=".PenchNP"
+            android:exported="false" />
+        <activity
+            android:name=".KanhaNP"
+            android:exported="false" />
+        <activity
+            android:name=".GwaliorFort"
+            android:exported="false" />
+        <activity
+            android:name=".KhajurahoFort"
+            android:exported="false" />
+        <activity
+            android:name=".Sachi"
+            android:exported="false" />
+        <activity
+            android:name=".OrchaFort"
+            android:exported="false" />
+        <activity
+            android:name=".Mandu"
+            android:exported="false" />
+        <activity
+            android:name=".Sarafa"
+            android:exported="false" />
+        <activity
+            android:name=".NightTourism"
+            android:exported="false" />
+        <activity
+            android:name=".LightShows"
+            android:exported="false" />
+        <activity
+            android:name=".Events"
+            android:exported="false" />
+        <activity
+            android:name=".Plan_Trip"
+            android:exported="false" />
+        <activity
+            android:name=".Indore_Plan"
+            android:exported="false" />
+        <activity
+            android:name=".ExperienceMP"
+            android:exported="false" />
+        <activity
+            android:name=".BookTicket"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Splash_activity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

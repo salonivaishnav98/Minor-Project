@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--dark-->
+    <color name="darkBlue">#0520B6</color>
+
+    <!--light-->
+    <color name="lightrama">#F1FAF9</color>
+    <color name="darkrama">#A5F1FB""</color>
+
+    <!--text background-->
+    <color name="green">#3B8A83</color>
+    <color name="darkgreen">#185C56</color>
+
+</resources>

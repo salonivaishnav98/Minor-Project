@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:id="@+id/Layout1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@color/white">
+
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoStart="true"
+            android:flipInterval="2000">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gulawat"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/safari"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/phoenix"
+                android:scaleType="fitXY"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:background="@drawable/img2" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/img6"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tribalbhopal"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sarafa"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/saila_dance"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/maheshwar"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bhedaghat"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/mandu_night"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/maheshwar"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/panchmarhi_hill"
+                android:scaleType="fitXY"/>
+        </ViewFlipper>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:layout_margin="5dp"
+                android:orientation="vertical"
+                >
+
+                <HorizontalScrollView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="110dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="110dp"
+                        android:layout_margin="5dp">
+
+                        <LinearLayout
+                            android:layout_width="100dp"
+                            android:layout_height="110dp"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="3dp">
+
+                            <ImageButton
+                                android:id="@+id/experienceMP"
+                                android:layout_width="70dp"
+                                android:layout_height="80dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@drawable/namste_backgraound"
+                                android:contentDescription="@string/ExperienceMP"/>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="30dp"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/ExperienceMP"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="110dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/events"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/celebration"
+                                android:contentDescription="@string/ExploreMP"/>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="20dp"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Events"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="100dp"
+                            android:layout_height="110dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/touristattraction"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginStart="6dp"
+                                android:layout_width="70dp"
+                                android:layout_height="75dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/fortcartoon"
+                                android:contentDescription="@string/ArtandCraft"/>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="35dp"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/TouristAttraction"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/photosbtn"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/camerasticker"
+                                android:contentDescription="@string/ForestandWildlife"/>
+
+                            <TextView
+                                android:layout_width="100dp"
+                                android:layout_height="40dp"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Photos"
+                                android:textAlignment="center"
+                                android:textColor="@color/black"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="110dp"
+                            android:orientation="vertical">
+
+                            <ImageButton
+                                android:id="@+id/videobtn"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/videosticker"
+                                android:contentDescription="@string/AboutUs"/>
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="40dp"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/ExploreMP"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/upper"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="7dp"
+                    android:text="@string/TouristAttraction"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="5dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/FortsPlaces"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/forts"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/img2"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/FortsPlaces"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/ForestandWildlife"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/wildlife"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/img7"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/FortsPlaces"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Nature"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/nature"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/bhedaghat"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/FortsPlaces"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Spirituals"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/spirituals"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/img6"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/FortsPlaces"
+                                />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/upper"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="5dp"
+                    android:text="@string/TouristDestinations"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="5dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:paddingLeft="5dp"
+                                android:text="@string/Indore"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/indore"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/rajwada"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Indore"
+                                />
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Ujjain"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/ujjain"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/mhallok"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Ujjain"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Bhopal"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/bhopal"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/bhopalcity"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Indore"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Gwalior"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/gwalior"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/img2"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Gwalior"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Khajuraho"
+                                android:textColor="@color/black" />
+
+                            <ImageButton
+                                android:id="@+id/khajuraho"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/img6"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Khajuraho" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/upper"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="5dp"
+                    android:text="@string/ExploreMP"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="5dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/ArtandCraft"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/rajwada"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/artcraft"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Indore"
+                                />
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/SoundandLightShows"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/b"
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/sachinight"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Ujjain"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/FFood"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/food"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Indore"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/MusicandDance"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/karmadance"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Gwalior"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Adventure"
+                                android:textColor="@color/black" />
+
+                            <ImageButton
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/safari"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Khajuraho" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/upper"
+                    android:fontFamily="sans-serif-medium"
+                    android:padding="5dp"
+                    android:text="@string/Photos"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="5dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="140dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Panchmarhi"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/panchmarhi_hill"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Indore"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Bhedaghat_Jabalpur"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/bhedaghat"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Ujjain"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/Pitraparvat_indore"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/pitraparwat"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Indore"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="@string/maheshwarimg"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/maheshwar"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/maheshwarimg"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            >
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="sans-serif-condensed-medium"
+                                android:text="Safari"
+                                android:textColor="@color/black" />
+
+                            <ImageButton
+                                android:layout_marginTop="10dp"
+                                android:layout_width="150dp"
+                                android:layout_height="100dp"
+                                android:background="@drawable/safari"
+                                android:scaleType="fitXY"
+                                android:contentDescription="Safari" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

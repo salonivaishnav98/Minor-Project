@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Textiles"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textiles"
+        android:textSize="20sp"
+        android:background="@drawable/lower"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop1"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop1"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop5"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop5"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop5"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop3"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop3"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop6"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop6"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop6"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop2"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop2"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop7"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop7"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop7"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop4"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop4"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop4"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop8"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop4"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop8"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop9"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop4"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop9"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop9"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop10"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop4"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop10"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop10"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/shop11"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/shop4"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/shop11"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/shop11"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,367 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Tour MPedia</string>
+
+    <string name="TouristAttraction">Tourist Attraction</string>
+    <string name="TouristDestinations">Tourist Destinations</string>
+
+    <string name="ExperienceMP">Experience MP</string>
+    <string name="SoundandLightShows">Sound and Light Shows</string>
+    <string name="ArtandCraft">Art and Craft</string>
+    <string name="MusicandDance">Music and Dance</string>
+    <string name="Shopping">Shopping Markets</string>
+    <string name="textiles">Textiles of MP</string>
+    <string name="NightTourism">Night Tourism</string>
+
+
+    <string name="PlaceOnWheels">Place On Wheels</string>
+    <string name="FFood">Famous Foods</string>
+    <string name="Adventure">Adventure Activities</string>
+
+
+    <string name="Photos">Photos</string>
+    <string name="Events">Events</string>
+    <string name="PlanYourTrip">Plan Your Trip</string>
+    <string name="ExploreMP">Explore MP</string>
+    <string name="MPGlance">MP Glance</string>
+    <string name="FortsPlaces">Forts and Places</string>
+    <string name="Museums">Museums</string>
+    <string name="ForestandWildlife">Forest and Wildlife</string>
+    <string name="Unesco">UNESCO</string>
+    <string name="WeddingDestination">Wedding Destination</string>
+
+    <string name="AboutUs">About Us</string>
+    <string name="Nature">Nature</string>
+    <string name="todo">TODO</string>
+    <string name="MPTourism">MP Tourism</string>
+    <string name="Spirituals">Spirituals</string>
+
+    <string name="Indore">Indore</string>
+    <string name="Annapurna">Annapurna Temple</string>
+    <string name="Pitraparvat">Pitraparvat</string>
+    <string name="Gulawat">Gulawat (Lotus Valley)</string>
+    <string name="Sarafa">Sarafa</string>
+    <string name="Khajarana">Khajarana Ganesh Temple</string>
+    <string name="PhoenixCitadel">Phoenix Citadel</string>
+    <string name="KanchMandir">Kanch Mandir</string>
+    <string name="ClothMarket">Cloth Market</string>
+    <string name="ChappanDukan">Chappan (56) Dukan</string>
+    <string name="Ralamandal">Ralamandal</string>
+    <string name="Zoo">Zoo</string>
+    <string name="Rajwada">Rajwada Market</string>
+    <string name="Patalpani">Patalpani Fall</string>
+    <string name="Choraldam">Choral Dam</string>
+    <string name="Janapav">Janapav</string>
+    <string name="SimchaPark">Simcha Adventure Park</string>
+
+    <!-- description for indore-->
+    <string name="annapurna_des">Start your day at Annapurna Temple dedicated to Goddess Annapurna.This Temple is the oldest temple in Indore which was built in the 9th century.</string>
+    <string name="gulawat_des">Gulawat Lotus Valley is at a distance of Approx 25 km from Indore city. This beautiful destination is famous for Lotus Valley and pre wedding shoots. Though the Lotus Blossoms here throughout the year but the best time to visit is early morning in winters.</string>
+    <string name="pitraparvat_des">Lord Hanuman is seen sitting in the lap of Mother Anjani in this temple. People do not visit Pitra Parvat only for worshipping Lord Hanuman but they also enjoy the great view this place offers to visitors. As the sculpture and the temple is situated on a mountain-top, this place offers a great view of the city.</string>
+    <string name="Sarafa_des">From the iconic Indori poha, bhutte ki kees, and sabudana khichdi to the famous garadu (deep-fried yam), and malpua, Sarafa Bazaar has something to offer for every palate and at all times. Sarafa Bazar timings night 09:00 pm to 02:00 am every day, No entry fee. </string>
+    <string name="Khajarana_des">he temple has developed a lot over the years. It has developed from a small hut to a huge temple and the most revered shrine in the city. There are regular donation of gold, diamonds and other precious jewels at the temple.</string>
+    <string name="chappan_des">Chappan Dukan (Chhappan Dukan/56 Dukan) is a food and shopping Street located in Indore, Madhya Pradesh, India. It is known for its active street food scene and variety of shops, establishing itself as a notable landmark for residents and visitors alike.</string>
+    <string name="Pheonix_des">Phoenix Citadel is one of the largest retail and leisure centres in Madhya Pradesh. The gorgeous retail destination offers an impressive line-up of high-end stores for every style, premier dining experiences and endless entertainment. With over 1.0 million sq. ft.</string>
+    <string name="Kanchmandir_des">A Jain temple adorning Indore\'s Itwaria Bazaar, it was built by Sir Seth Hukumchand Jain, a preeminent Indian industrialist and trader. Glistening in glass, the foundation stone of the temple was said to be laid in 1903 and completed in July 1921.</string>
+    <string name="clothmarket_des">Cloth market is famous for it\'s wholesale rates on cloths</string>
+    <string name="zoo_des">It closes at 6 pm in winters and at 7 pm in summers. The zoo remains open all days of week except for Monday which is a weekly off.</string>
+    <string name="ralamandal_des">Ralamandal Wildlife Sanctuary is one of the most popular wildlife reserves in India. Established in 1989, this sanctuary spread over 234.550 hac. is an abode to some flora and fauna, indigenous to this part of the country. Hope into the four wheel drives available here for hire, and catch glimpses of Leopards, Black Bucks, Chitals, Blue bulls, Hyena, Barking deers, Peacock, Palm-civet, Porcupine and Hare. Let the scents of Teak, Saja, Gliricidia, Shisham and Eucalyptus entice you further.</string>
+    <string name="rajwada_des">It\'s famous for its wholesale cloth market and as an important historical tourist spot in Central India. The city of Rajwada, Indore is connected to significant locations.</string>
+    <string name="patalpani_des">The Patalpani Waterfall is located in Mhow Tehsil of Indore district in the state of Madhya Pradesh, India. The waterfall is approximately 300 feet high. The area around Patalpani is a popular picnic and trekking spot. The water flow is highest immediately after the rainy season (usually after July).</string>
+    <string name="choral_des">Choral Dam is a hidden gem that will definitely provide you with quietness and tranquility. Constructed around the backwaters of River Narmada, Choral Dam is replete with cool and clear water. A large number of lush green trees and small hills surround the place making it even more attractive. This place is full of jovial water activities that will interest young and old alike.</string>
+    <string name="janapav_des">The place is quite popular among trekkers for its scenic beauty and adventurous routes. The place is also famous for being the birthplace of Lord Parshurama and the fair that is held here every year on Kartik Purnima which is the first full moon after Diwali.</string>
+    <string name="simcha_des">Simcha is an adventure park in Indore which is spread over 30 acres of land- with green gardens, more than 90 cozy rooms, 7 preen and proper banquets, a spacious concert stage, lip-smacking delicacies and ornate décor with 5 floral lawns.</string>
+
+
+    <string name="Bhopal">Bhopal</string>
+    <string name="Ujjain">Ujjain</string>
+    <string name="Gwalior">Gwalior</string>
+    <string name="Khajuraho">Khajuraho</string>
+    <string name="jabalpur">Jabalpur</string>
+    <string name="Maheshwar">Maheshwar</string>
+    <string name="Omkareshwar">Omkareshwar</string>
+
+    <string name="Home">Home</string>
+    <string name="User">User</string>
+    <string name="BookTicket">Book Ticket</string>
+
+
+    <string name="Panchmarhi">Panchmarhi</string>
+    <string name="Bhedaghat_Jabalpur">Bhedaghat Jabalpur</string>
+    <string name="Pitraparvat_indore">Pitraparvat indore</string>
+    <string name="maheshwarimg">Maheshwar</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <!--Descriptions for light show Tourism-->
+    <string name="Mandu_night">The love saga of Rani Roopmati and Baz Bahadur at Mandu</string>
+    <string name="khajuraho_night">The tales of Chandel temples at Khajuraho</string>
+    <string name="Sachi_name">The Story of Stupas at the Sanchi Stupa</string>
+    <string name="gwalior_night">The Glorious history of Gwalior at Man Mandir palace</string>
+    <string name="orchha_night">Re-live the bygone times of Orchha</string>
+
+    <string name="Mandu_des_night">Take a peek into the past with the spectacular laser light and sound show, this one unfolds the history of Mandu. Hindola Mahal, set as the background of this exquisite light and sound show depicts the love saga of Rani Roopmati and Raja Baz Bahadur in the voice of the famous artist Ashutosh Rana. The show takes place every evening in various slots.
+If Mandu is in your travel plan, then make sure to keep your evening reserved for the sound and light show to witness the beautiful visual effects and gripping stories to know all about the bygone era.
+</string>
+    <string name="khajuraho_des_night">Khajuraho is one of the three UNESCO World heritage sites in Madhya Pradesh and it\'s temple complex is renowned for holding exceptional artistry, depicting the era of Chandel rulers. The enthralling sound &amp; light show in Khajuraho portrays the life of the Chandela rulers and traces the tales of temples they built in 10th and 11th CE in the audacious voice of Mr. Amitabh Bachchan.
+</string>
+    <string name="Sachi_des_night">Madhya Pradesh is home to a total of three UNESCO world heritage sites, making it one of the most crucial reasons to visit. Sanchi, which treasures the historic remains of Buddhism in India, is also a UNESCO world heritage site. The Light &amp; Sound show at the Sanchi Stupa depicts the story of the stupas and evokes the life of Emperor Ashoka and Gautam Buddha.
+It uses 3D projection mapping technology, lasers, and amplified sound to turn the monuments into an open-air 3D theater.</string>
+
+    <string name="gwalior_des_night">The \'Pearl among the fortresses in India\', commonly known as the Gwalior fort is a hilltop fort imposing its rich culture and heritage throughout the city. The stunning Light and Sound show that takes place every day after sundown at the Gwalior fort portrays the reign of many dynasties that ruled over the city and the evolution of its culture.
+During the show, the fort of Gwalior adorns a festive look in red-gold, blue-green luminescence and with the booming voice of actor Amitabh Bachchan adds life to the ambience.</string>
+    <string name="orchha_des_night">The palace of Orchha is more than a palace, it is a treasure trove that preserves its magical past into the wall of this stupendous palace. The light and sound show at Orchha is one of the most beautiful shows in India. Flounder in the bygone times of kings and queens and know all about the history of the town with hypnotic Light &amp; Sound show showcased at the fort complex.</string>
+
+
+    <!--description for night tourism-->
+
+    <string name="sarafa_des">Contributing to the fame of Indore’s street food culture, Sarafa Bazar is one of the best places for foodies in Madhya Pradesh.
+Offering a number of delicacies like dahi wadas, kachori chaat, petha paan, buttermilk, shikanji and many more, Sarafa Bazaar is a place in Indore where you will not be able to stop yourself from gorging on lip-smacking food.
+Filled with a number of stalls bragging of delicious food items, Sarafa Bazaar is a delightful place to spend an evening in Indore.
+</string>
+
+    <string name="bandhavgarh">Bandhavgarh National Park (Safari)</string>
+    <string name="bandhavgarg_des">* Safari Zone: Night Safari in Buffer Zone\n\n
+* Night Safari Timings: 06:30 PM – 09:30 PM\n\n
+* Explore the wildlife in the splendid colour of the setting sun at Bandhavgarh National Park. The night jungle safari takes you through the dark forest of the park to let you spot creatures of the night lurking in the woods.
+Bandhavgarh is home to a high density of Royal Bengal Tigers and spotted deers along with other different species of flora and fauna, making it one of the best tiger sighting destinations in the country.</string>
+
+    <string name="kanha">Kanha National Park (Safari)</string>
+    <string name="kanha_des">* Safari Zone: Night Safari in Buffer Zone\n\n
+* Night Safari Timings: 07:30 PM – 10:30 PM\n\n
+        * Location: Kanha National Park is nestled in the Maikal range of Satpuras in Madhya Pradesh\n\n
+* Kanha National Park has gained popularity for reviving the population of the state animal of Madhya Pradesh- Barasingha which was on the verge of extinction. Do not get surprised with the calls of owls and eagles in the night while trying to spot the wild creatures of the park.
+The night jeep safari is an ideal vacation for wildlife and nature enthusiasts alike. Kanha National Park is home to a wide variety of natural beings such as tigers, leopards, bears and many more.</string>
+
+    <string name="pench">Pench National Park (Safari)</string>
+    <string name="pench_des">* Safari Zone: Night Safari in Buffer Zone\n\n
+* Night Safari Timings: 05:30 PM – 08:30 PM\n\n
+* ‘The Jungle Book’ was inspired by a true story based on a boy brought up by the wolves in the forests of Pench National Park in the 18th century. From then, the park has garnered attention of the wildlife and literary lovers.
+Pench National Park is one of the highest contributors of wildlife tourism in Madhya Pradesh. Home to a large ecosystem, the park shelters tigers, leopards, hyena, nilgai along with various migratory birds such as whistling teal, pintail and vegtel among many others.</string>
+
+
+    <!--Music and dance description-->
+
+    <string name="dance1">* Jawara \n\nPeople of the Bundelkhand region perform this dance to celebrate prosperity. Originally a pleasing dance jawara follows the reaping of customs, dance, and revel together, synchronizing their movement to a spread of musical instruments while dancing, the women also balance baskets, filled with Jawara on their heads.</string>
+
+    <string name="dance2">* Tertali \n\n Tertali may be a folk dance of the Kamar in Madhya Pradesh generally, two or three women of the tribe sit on the ground and initiate the dance performance. A small metal cymbal called ‘Magiras’ was tried on different parts of the body. They also carry a cymbal in each hand and strike them in rhythm</string>
+
+    <string name="dance3">* Lehangi\n\nLehangi may be a folk dance of the Banjara and Khanjar tribe of the Bhopal commissary of Madhya Pradesh and performed during the blossoming monsoon period. The Banjara tribe also performs this dance form during the festival of “Rakhi”. Young men hold sticks in their hands and rhythmically beat them while dancing various acrobatic tricks incorporated into the dance, lend a dramatic touch to the performances.</string>
+
+    <string name="dance4">* Ahiri\n\nAhiri Dance belongs to the cattle herding groups of Gwalior. Being a popular folk dance form of Gwalior district, Ahiri dance is performed by the Baredi, Ahir, Gwala, Raut and Rawat communities of Gwalior.</string>
+
+    <string name="dance5">* Gaur\n\nThe foremost popular among the Madya Pradesh dances is the Gaur dance of the Sing Marias or Tallaguda Marias of South Bastar. This spectacular dance symbolizes the hunting spirit of the tribe. The word ‘gaur’ means a ferocious bison. The invitation for a dance is given by sounding a bamboo trumpet or horn. Wearing headdresses frilled with stringed ‘cowries’ and plumes of peacock feathers fastened to them the lad’s folk with flutes and drums make their way to the dancing ground.
+Women adorned with brass fillets and bead necklaces over their tattooed bodies soon join the assemblage.</string>
+
+    <string name="dance6">* Muria\n\nThe Murias trained within the Ghotui for all types of their community places. Before any dance commenced at a wedding or a festive occasion, the Murias first worship their drums. Fairly often they begin with an invocation to ‘Lingo pen’, the phallic deity of the tribe and therefore the founder of the ghotul institution. To a Muria, Lingo Pen was the primary musician who taught the art of drumming to the tribal boys.</string>
+
+    <string name="dance7">* Saila\n\nYoung boys of the lain of Chhattisgarh bring life to the post-harvest time through the Saila dance. Saila may be a stick dance and is popular among the people of Sarguja, Chhindwara and Baitui districts. But in these places, Saila is understood by DandaNach or Dandar Pate.
+Sometimes the dancers form a circle, each standing on one leg and supporting himself by holding on to the person in front. Then all of them hop together round and round.</string>
+
+    <string name="dance8">* Karma\n\nAmong the Gonds and therefore the Baigas of Chhattisgarh and the Oraons of the North-west fringes of Madhya Pradesh, the Karma dance is extremely common. This type is associated with the fertility cult and essentially related to the Karma festival that falls in the month of August.
+The Karma dance symbolizes the bringing of green branches of the forest within the spring.</string>
+
+
+    <!--textiles items and description-->
+    <string name="shop1">* Maheshwari Sarees\n\n
+Maheshwari sarees are evergreen sarees that originate from the Maheshwar town of Madhya Pradesh. Almost all families in this town were traditionally handloom weavers – and most of them still are! One can go hinting for these beautiful cotton or silk sarees in the narrow lanes of Maheshwar to get an unmatchable price. To level up the oomph factor on your saree, choose to go for some zari – or golden thread – work.</string>
+
+    <string name="shop2">* Chanderi Sarees\n\n
+Chanderi sarees are Characterised by their peacock, floral or geometrical motifs, intricately woven into a silk or cotton fabric. Chanderi sarees are some of the most exquisite sarees of India that belong to the Chanderi town. The Malwa and Bundelkhand regions are known for this handloom craft and it would be criminal to not go hunting for Chanderi sarees while shopping in Madhya Pradesh!</string>
+
+    <string name="shop3">* Batik Fabric\n\n
+The Batik is a form of art that can be seen as paintings, or even as fabric prints. The process of Batik artwork first involves the waxing of the fabric which is being painted upon. Once the dyeing and painting are done beautifully by hand, the fabric is de-waxed to uncover the contrasting colours in the patterns. Though originally from Indonesia, Batik has made its mark in Indian culture for many centuries now – especially in Madhya Pradesh. Behrugarh is best known for Batik shopping in Madhya Pradesh.</string>
+
+    <string name="shop4">* Bandhani Sarees\n\n
+Bandhani is an Indian form of tie-dying which is done in intricate patterns. The primary colours used for Bandhani fabrics are yellow, green, red, blue, and black – and are a popular item to buy from Madhya Pradesh. Also known as Bandhej, this is a common fabric worn for everyday use. Amarwara town in the Chhindwara district is also known as the “Bandhani Village” and is the go-to place for Bandhani shopping in Madhya Pradesh.</string>
+
+    <string name="shop5">Thappa and Thussa Jewellery\n\n
+The Thappa and Thussa Jewellery are the traditional jewellery of Madhya Pradesh. Thappa literally means “to stomp” and during this process, paper-thin sheets of gold mixed with other metals like copper are embossed with floral and geometrical patterns. On the other hand, Thussa is the art of braiding strands of gold together to make beautiful neckpieces, bracelets and other jewellery. The Thappa and Thussa Jewellery are most popular in Bhopal, and one can look in the Jama Masjid area for some authentic artwork!</string>
+
+    <string name="shop6">* Gond Paintings\n\n
+The Gond are a tribal people of Madhya Pradesh and neighbouring states which are famous for their Gond paintings. The Gond artwork draws heavily from humanity’s relationship with nature and features “on line work” which is used to give a sense of movement to still, 2D images. The paintings also use strikingly bright colours and depiction of myths and legends. Original Gond artwork can be shopped from the Patangarh Village in the Dindori district of Madhya Pradesh.</string>
+
+    <string name="shop7">* Dhurrie\n\n
+Dhurries or daris are hand-woven rugs found in most parts of India. But Madhya Pradesh is known for its sturdy dhurries featuring vivid colours. These are traditionally hand-woven by pit looms and made in cotton or sheep wool. In the dhurries of Madhya Pradesh, the sun motif plays an important role and can be featured in bright hues of yellow, or sunflower prints, etc. For the best deals in Madhya Pradesh dhurries, head to rural villages of Jabalpur, Raigarh, Sironj and Jhabua districts!</string>
+
+    <string name="shop8">* Lacquerware\n\n
+Wooden lacquerware is a traditional craft in the Bhopal district of Madhya Pradesh. The process of this artwork includes using soft woods like dudhi, salaiya and haldu are moulded into desired shapes using a traditional lathe. They are then coated in a layer of lac, before being ready to be sold. Sheopur district is known for its lacquerware ranging from home décor to utilitarian objects.</string>
+
+    <string name="shop9">* Bhopali Batua\n\n
+“Bhopali Batua” are string pouches or potlis embroidered with intricate zardozi work. The pouches are made of a heavy fabric like silk and also feature gold threads and even precious stones! Of course, Bhopal is the place to go shopping for some batuas. But even in Bhopal, the Parekh Brothers shop is 185 years old and is an 11th generation business of this traditional purse of Madhya Pradesh that should definitely be checked out!
+</string>
+
+    <string name="shop10">Bagh Print Fabric\n\n
+The Bagh Print is one of Madhya Pradesh’s most popular fabric print. It is printed with wooden blocks using a vegetable dye. This print mostly features paisley, geometric, or floral artwork. The most common and traditional colour combination for Bagh Print is red and black over white, but in contemporary days many other colours have also come up. This artwork originates in the Bagh village of Dhar district and a visit there is a must for Bagh Print shopping in Madhya Pradesh!</string>
+
+    <string name="shop11">* Pithora Paintings\n\n
+Pithora art is practised by the Aadharkaanch, Bhilala and Rathwa tribes of central Madhya Pradesh. This artwork is ritualistic and traditionally made on walls. It is believed that having these painting in the home bring prosperity and peace. These paintings were made as thanks to God when a wish was granted. The Pithora art can now be bought as paintings, or even embroidered over cushions, sheets etc. Dehrikheda village of Alirajpur district is the best place to buy some!</string>
+
+
+    <!--shopping market-->
+    <string name="market1">* Sarafa Bazar\n\n
+Traveller’s Choice 2020 recognised Sarafa Bazaar, Indore, due to its substantial vividness and variety of offerings. One famous Indore city market has a wide range to offer, from precious gemstones and jewellery pieces to mouth-watering eatables. Some of these are Chinese cuisine, South Indian delicacies, an eclectic range of paan, bhutte ke kees, and lots more. If you are a fan of jewellery, visit this market to spectate one of the most detailed and refined statement jewellery pieces of Meenakari.</string>
+
+    <string name="market2">* D.B. City Mall\n\n
+If you love to explore malls and love to buy at branded stores, then D.B. City Mall is one of the prominent malls to visit in the Bhopal city market. It has a vast range and variety of branded shops to showrooms – Westside, Mark &amp; Spencers, and Shoppers Stop. You can buy electronic gadgets, clothes, food items, makeup products, home decorations pieces, or even artistic showpieces from D.B. City Mall, Bhopal market.</string>
+
+    <string name="market3">* Treasure Island Mall\n\n
+Treasure Island Mall of Indore is the first mall of central India or M.P. The mall was one of the best malls in India in 2007 and 2008. It is among the most famous Indore markets and offers multiple brands’ apparel, appliances, gadgets, jewellery, cosmetics under one roof. </string>
+
+    <string name="market4">* Kuber \n\nWhen you are in Khajuraho, don’t forget to visit Kuber. It is one of the most famous shops in Khajuraho. It is well-known for its refined offerings ranging from handicrafts, handlooms, jewellery to obscure stone carvings. If you are looking for a one-stop solution for traditional and historical artifacts and figurines of Khajuraho, Kuber is the best place to shop.
+</string>
+
+    <string name="market5">* Khajuraho’s Textiles &amp; Looms\n\n
+Are you a great fan of handwoven, curated textiles, looms, and fabrics? Then you must visit Khajuraho’s Textiles &amp; Looms. One of Khajuraho’s Textiles &amp; Looms’ engaging and unique experiences is to stitch and prepare your outfits per your body measurements and customisations within 24 hours.</string>
+
+    <string name="market6">* Sitlamata Bazar\n\n
+If you are looking for the most acceptable options to shop for attractive clothing options – heavy embroidered sarees, dress materials, delicate fabrics, then the Sitlamata Bazaar couldn’t be better shopping for retail attire options.</string>
+
+    <string name="market7">* Rehwa Society\n\n
+Rehwa society is one of the oldest markets established in the 1970s and recognised as art and craft providers. They support local weavers and promote their skills and craftsmanship to retain their heritage and culture of Maheshwar. The Rehwa Society was the reason behind the manufacture, export, and rise of Maheshwari sarees in the textile market. </string>
+
+    <string name="market8">* Topkhana Market\n\n
+Topkhana Market is a distinguished Indore city market famous for central India handicrafts, artifacts, art and crafts, wooden figurines, terracotta carvings, leather toys, and more. So, don’t forget to purchase eye-catching and alluring souvenirs for your near and dear ones once you plan a visit to Indore.</string>
+
+    <string name="market9">* Khajuri Bazaar\n\n
+Are you a bookworm?\n Then it would be best if you visit the Khajuri Bazaar to shop from hundreds of options available. It is one of the biggest markets in Indore to shop novels, magazines, courseware books, religious books, and even periodic reads. Khajuri Bazaar will never let you down in various books ranging from genres - sacred to a suspense thriller.</string>
+
+
+    <string name="market10">* Jail Road\n\n
+When in Indore, visit Jail Road to purchase the best electrical items for your daily needs at an affordable rate. Bargaining is the key to own a few unique and useful electrical appliances and tools within budget and cheaper to market rates. Jair Road is one of the busiest markets in Indore around Diwali, New Year, and other festival seasons.</string>
+
+
+    <!--Adventure name and description-->
+    <string name="adventure1">Go for Wildlife Safari</string>
+    <string name="adventure1_des">1) Bandhavgarh National Park is located in Umaria district and the safari charges here are INR 5500 per vehicle.\n\n
+2) Kanha National Park is located in Mandla district and the safari charges here are INR 6500 per vehicle.\n\n
+3) Pench National Park is located in Seoni and Chhindwara districts and the safari charges here are INR 1,500 per vehicle.\n\n
+4) Panna National Park is located in Chhatarpur district and the safari charges here are INR 1000 per vehicle.\n\n
+5) Satpura National Park is located in Hoshangabad District and the safari charges here are INR 3050 per vehicle.\n\n
+6) Sanjay National Park is located in Sidhi District and the safari charges here are INR 4500 per vehicle.\n\n
+7) Madhav National Park is located in Shivpuri and the entry fee here is INR 15 per person.\n\n
+8) Van Vihar National Park is located in Bhopal and the entry fee here is INR 15 per person.\n\n
+9) Fossil National Park is located in Dindori District and the entry here is free.</string>
+
+
+    <string name="adventure2">River Rafting in Betwa River, Orchha</string>
+    <string name="adventure2_des">River rafting is another adventure activity that adds grace to the image of Madhya Pradesh as an ideal location for adventure enthusiasts. If you love the feeling of getting thrilled, Betwa River flowing through Orchha is the spot where you can indulge in the thrilling activity of river rafting.\n* Location: Betwa River, Orchha\n* Rafting length: 3 km\n* Price: INR 800-2000 per person</string>
+
+
+    <string name="adventure3">Trekking</string>
+    <string name="adventure3_des">There is a number of places where you can go trekking in Madhya Pradesh:\n\n
+1. Ralamandal Wildlife Sanctuary Trek\n\n
+2. Pachmarhi Hill Trek\n\n
+3. Tincha Fall Trek\n\n
+4. Bamniya &amp; Mehendi Kund Trek\n\n
+5. Patalpani Waterfall Trek\n\n
+6. Chidiya Bhadak Waterfall Trek</string>
+
+    <string name="adventure4">Rock Climbing</string>
+    <string name="adventure4_des">If you are looking for some offbeat adventure in Madhya Pradesh that makes you push your limits, there can be no better option than rock climbing in Pachmarhi.\n\nPachmarhi is one of the priceless hidden gems in the state of Madhya Pradesh that has a lot of unusual experiences to offer, only to those who are on a quest to explore the unexplored.\n\n
+Rock climbing in Pachmarhi offers you an unnerving adventure of climbing up the rocky terrains of Satpura Range, creating an experience you probably have not had before. After you are done testing your endurance, breathtaking views from the top add a satisfying conclusion to the experience.
+</string>
+
+    <string name="adventure5">Camping</string>
+    <string name="adventure5_des">Say ‘no’ to boredom and set out with your group to experience the outdoor adventure of camping in Madhya Pradesh.\n
+    \nThere is a number of places where you can go camping in Madhya Pradesh:\n\n1. Choral Dam \n2. Kalakund Jungle\n3. Pachmarhi\n4. Hanuwantiya\n5. Sailani Tapu</string>
+
+    <string name="adventure6">Speed Boating</string>
+    <string name="adventure6_des">If you are in the mood to get adventurous in Bhopal, the Upper Lake is the best place where you can indulge in a number of water activities including speed boating.\n\n* Location: Upper Lake, Bhopal\n\n* Timing: 6 AM to 7 PM\n\n* Price: INR 240</string>
+
+    <string name="adventure7">Sail Through the Marble Rocks</string>
+    <string name="adventure7_des">The adventure of sailing on the waters of  Narmada River, through the huge marble rocks in Bhedaghat is a visual treat, and also a great means to get your adrenaline pumping.\n\n* Location: Bhedaghat\n\n
+* Timing: 6 AM to 7 PM\n\n
+* Boating charges: INR 300</string>
+
+    <string name="adventure8">Parasailing and Paragliding in the Hills</string>
+    <string name="adventure8_des">The only hill station in Madhya Pradesh, Pachmarhi has gorgeous hills, perfect for various adventure sports in Madhya Pradesh. The station is frequented by tourists in the quest for thrill all around the year. \n\n\n* Location: Panchmarhi near Bhopal Madhya Pradesh</string>
+
+    <string name="adventure9">Cycling in a Thickly Forested Island</string>
+    <string name="adventure9_des">Madhya Pradesh is blessed with the best of nature. The state has varied landscapes apt for different types of adventure sports. \n\nIf imagining about cycling on a thickly forested island between two rivers excites you, you need to experience the adventure of cycling on the island between the Betwa River and the Jamni River, featuring amazing trails in the middle of the raw jungle.\n\nThe challenging trails of this region make cycling here one of the most thrilling adventure activities in Madhya Pradesh. The rich biodiversity you get to witness along the way is just a bonus.</string>
+
+    <string name="adventure10">Water Sports</string>
+    <string name="adventure10_des">Madhya Pradesh is dotted with places that can conveniently be called ‘adventure hubs’. Bargi Dam is one of the priceless gems Madhya Pradesh boasts of. It is a scenic place offering a plethora of water sports to indulge in.\n\n* Activities: Speed boating, paddle boating, water scooter, and cruising.\n\n
+* Location: 40 km from Jabalpur City\n\n
+* Timings: 10 AM to 6 PM\n\n
+* Price: INR 90 per head for cruising</string>
+
+    <string name="adventure11">Kayaking in River</string>
+    <string name="adventure11_des">Kayaking is one of the most thrilling water sports you can experience in Madhya Pradesh. \nConfront the exhilarating thrill of Kayaking in the waters of the Betwa River and the Narmada river.\n\n
+This adventure activity does not only give you a perfect dose of adventure, but also gives you a perfect opportunity to see a different aspect of the natural diversity of the state.\n\n
+Whether you are exploring Madhya Pradesh with your family or friends, kayaking in either of these rivers deserves to be on the list of the things you plan to experience here.\n\n
+</string>
+
+    <string name="adventure12">Water Sports at Hanuwantiya</string>
+    <string name="adventure12_des">One of the best places in Madhya Pradesh to visit with a hunger for thrill is Hanuwantiya Island, located at the bank of Indira Sagar Dam.nMoreover, the scenic beauty of this island blanketed in lush greenery is breathtaking.\n\nOwing to an impressive range of adventure sports available here, this place serves as a hotspot for tourists seeking an offbeat experience. You can indulge in fun water sports like banana boat ride, parasailing, jet skiing, cruising, and speed boating in the tranquil waters of Asia’s second largest reservoir, Indira Sagar Lake. Besides, you can also undertake a trekking expedition to Boriyamal Island.
+Hanuwantiya Island has a lot of offerings to satisfy the adventurer in you.\n\n* Location: Hanuwantiya Island, Near Purni Village\n
+\n* Timings: 8 AM to 8 PM</string>
+
+    <string name="adventure13">Cable Car Ride Over the Marble Rocks</string>
+    <string name="adventure13_des">Located a distance of 20 km from the city of Jabalpur, Bhedaghat is one of the most sought-after tourist destinations in Madhya Pradesh. Apart from the presence of Narmada River, the place is renowned for the marble rocks, almost 100 feet tall, sitting on either side of the river. \n\n* Location: Bhedaghat Town, 20 km from Jabalpur\n\n
+* Timings: 10 AM to 6:30 PM\n\n
+* Price: INR 60 per person</string>
+
+    <string name="adventure14">Kalakund Forest Night Trek</string>
+    <string name="adventure14_des">Madhya Pradesh has some trek-worthy valleys and hills, and claims a wide range of exciting trekking trails all over it. \n\nKalakund trek near Indore is one of the most popular ones. Embrace the thrill of trekking through dense jungles at night and camping in the wild by indulging in Kalakund Forest night trek. \n\n
+    * Location: Gunjara Village, 40 km from Indore</string>
+
+    <string name="adventure15">Flying Fox</string>
+    <string name="adventure15_des">Kerwa Dam has a wide array of adventure activities on offer which makes it a perfect weekend destination for adventure enthusiasts. Out of all the exciting activities, you can indulge in here, zip lining at Flying Fox tops the list, as the level of thrill this activity offers is unrivaled. </string>
+
+
+    <!--Famous food and description-->
+    <string name="food1">Poha</string>
+    <string name="food1_des">Super light and super healthy cuisine which is fondly eaten in all the parts of our country is given to India by Madhya Pradesh. Poha is made with the flattened rice along with the well-cooked onions, tomatoes and is best savoured with green chillies, curry leaves and a bit of lemon.
+A great bowl of Poha can be enjoyed in all the parts of Madhya Pradesh.</string>
+
+    <string name="food2">Daal Bafla</string>
+    <string name="food2_des">Daal Bafla that is fondly served in many parts of Madhya Pradesh has got its influence from Rajasthani cuisine. Dal Bafla is a mouth-watering cuisine which is very similar to the famous Dal Bati of Rajasthan. Bafla is a delicious treat of the wheat balls well cooked in ghee. The dish is well complemented with a bowl of Dal and coriander sauce (Hari chutney). Dal Bafla is not only celestial in taste but also provides a good dose of multiple vitamins, proteins, carbohydrates and fat just in the right quantity.</string>
+
+    <string name="food3">Seekh Kebabs</string>
+    <string name="food3_des">The food palate of Madhya Pradesh has got a strong influence from Mughal cuisines. In all the parts of the state, you will be served with some of the best Mughlai cuisines that are highly inspired by the Mughal style cooking. Seekh Kebabs are being one of the most savoured non-vegetarian dishes of Madhya Pradesh. Well-minced meat is presented in a wrap and can make your taste buds going with its meat that melts in your mouth. Apart from Seekh Kebabs, Keema, Korma, Shammi Kebabs are other Mughlai delicacies that people of Madhya Pradesh loves to munch.
+You can find the best of Kebabs and Mughlai food in Bhopal.</string>
+
+    <string name="food4">Bhutte Ka Kees</string>
+    <string name="food4_des">Another healthy and yet delicious delicacy of Madhya Pradesh is Bhutte Ka Kees. As the name clearly suggests, this dish mainly comprises of corns. Grated corns are well-cooked with spices and skimmed milk which adds a slightly sweet taste to the dish. Mustard seeds and green chillies are further added to enhance the taste of this authentic cuisine of Madhya Pradesh.
+Bhutte Ka Kees is a typical street food of Madhya Pradesh, and the best of this dish can be found in Indore.</string>
+
+    <string name="food5">Bhopali Gosht Korma</string>
+    <string name="food5_des">Another delectable cuisine of Madhya Pradesh that has got its taste from Mughlai cuisine is Bhopali Gosht Korma. A plate of this Nawabi cuisine offers you a great dose of spices. Mutton being the main ingredient of the dish is complemented with the great Indian spices to obtain a delicious plate of Gosht Korma.
+The best Gosht Korma will be served to you in Bhopal.</string>
+
+    <string name="food6">Palak Puri</string>
+    <string name="food6_des">When it comes to healthy food, Madhya Pradesh has a plate full of delicacies that are not just palatable in taste but also provide a great source of nutrients. Palak Puri is very fondly eaten as a breakfast meal and it is best served with aloo sabzi and raita for a perfect lunch meal. Palak Puri is prepared with wheat dough mixed with grind spinach leaves and some spices to get the best taste.
+The best Palak Puri can be found in Jabalpur.</string>
+
+    <string name="food7">Chakki Ki Shak</string>
+    <string name="food7_des">Chakki ki Shak is a dish which has got its influence from Rajasthani cuisine. The dish is prepared with steamed dough which is later added to the gravy which is prepared with different kinds of Indian spices. The dish is best complemented with a bowl of curd and is fondly eaten in the whole of Madhya Pradesh.\n\n
+Indore is widely famous for its Chakki ki Shak\n\n
+If you have satiated your foodie soul with some of the amazing delicacies of Madhya Pradesh, save a tiny bit of space for some of the great sweet dishes that Madhya Pradesh has to offer you. Every dish being extremely celestial and unique in its taste will make you fall in love with the heart of India all over again.</string>
+
+    <string name="food8">Malpua</string>
+    <string name="food8_des">Say hello to the India’s own pancakes. Malpua is majorly prepared with flour, fried in ghee and then dipped in the sugar syrup to add the taste that will make you crave for the dish again and again. The dressing of some saffron can further enhance the taste of this dish. Malpua is best served with rabdi for a complete treat.
+The best Malpura will be served in Jabalpur.</string>
+
+    <string name="food9">Jalebi</string>
+    <string name="food9_des">One dish that you will be seeing in every and nook of the state is Jalebi. And, trust me, you can expect a heavenly taste of this amazing delicacy of Madhya Pradesh even in the hidden interior of the state. The dish is prepared with utmost love in wheat flour, fried and then soaked in sugar syrup. The crisp taste of this sweet dish will revive your love for the most popular dish of Madhya Pradesh. For the best authentic taste, forget the big restaurant chains and make your way to the interiors of Madhya Pradesh where you will be served Jalebi in the most authentic and sinful manner.
+For the best Jalebis in Madhya Pradesh, you must visit Khandwa.</string>
+
+    <string name="food10">Mawa Bati</string>
+    <string name="food10_des">The perfect crisp, the right amount of sweetness and the perfect texture. Mawa Bati is probably one dish that defines the sweet dish palate of Madhya Pradesh. It is prepared with mava dough which is mixed with rich dry fruits. After deep frying the mava dough balls, the dish is well-soaked in the sugar syrup to add the sweetness in the dish. Mawa Bati is one dish that you cannot miss to munch on when you are in Madhya Pradesh.</string>
+
+    <string name="food">Other</string>
+    <string name="food_des">There is no end to the list of amazing delicacies that you will find in the heart of India. Srikhand, Imarti, Faluda, Kaju Katli, Lavang Lata and Rabri are among the few others dishes that can easily satisfy your sweet tooth. Apart from various cuisines, Madhya Pradesh is also famous for its different styles of Namkeen. Dalmoth, Phalhari Potato Chiwra, Khatta Metha Chiwra and Khasta Kachori are some of the snacks that are delightful in taste.</string>
+
+
+</resources>
+

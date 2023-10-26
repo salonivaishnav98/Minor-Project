@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sarafa"
+    android:orientation="vertical"
+    android:background="@drawable/lower"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Sarafa"
+        android:textSize="20sp"
+        android:background="@drawable/lower"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+
+
+                <ImageButton
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/Mandu_night"
+                    android:scaleType="fitXY"
+                    android:layout_margin="5dp"
+                    android:background="@drawable/sarafa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sarafa_des"
+                    android:padding="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Timings: 8 pm to 2 am"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Location: Sarafa Bazaar, Indore"
+                    android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+
+
+</LinearLayout>

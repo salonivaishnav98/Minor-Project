@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GwaliorFort"
+    android:orientation="vertical"
+    android:background="@drawable/lower"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gwalior_night"
+        android:textSize="20sp"
+        android:background="@drawable/lower"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/gwalior_night"
+        android:scaleType="fitXY"
+        android:layout_margin="5dp"
+        android:background="@drawable/gwalior_night"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gwalior_des_night"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_marginBottom="3dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Hindi show timings: 7:30 PM to 8:15 PM"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_marginBottom="3dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* English show timings: 8:30 PM to 9:15 PM"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_marginBottom="3dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* Location:  Gwalior, Madhya Pradesh"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:textAlignment="textStart"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:layout_marginBottom="3dp"/>
+
+</LinearLayout>

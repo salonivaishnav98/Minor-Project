@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shopping"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:gravity="center"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Shopping"
+        android:textSize="20sp"
+        android:background="@drawable/lower"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:padding="10dp"
+        android:textAlignment="center"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market1"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_sarafa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market1"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market2"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_dbmall"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market2"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market3"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_ti"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market3"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market4"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_kuber"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market4"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market5"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_khajuraho"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market5"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market6"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_sitlamata"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market6"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market7"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market7"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_rehwa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market7"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market8"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market8"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_topkhana"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market8"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market9"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market9"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_khajuri"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market9"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/market10"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/market10"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/market_jailroad"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/market10"
+                    android:padding="10dp"
+                    android:textAlignment="textStart"
+                    android:textSize="15sp"
+                    android:fontFamily="sans-serif-medium"
+                    android:textColor="@color/black"
+                    android:layout_marginBottom="3dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
