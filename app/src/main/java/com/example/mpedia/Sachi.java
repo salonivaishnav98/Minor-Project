@@ -10,5 +10,6 @@ public class Sachi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_32_5_sachi);
+        getSupportActionBar().setTitle("Sanchi Stup");
     }
 }

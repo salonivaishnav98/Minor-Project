@@ -10,5 +10,6 @@ public class PenchNP extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_31_3_pench_np);
+        getSupportActionBar().setTitle("Pench National Park");
     }
 }

@@ -16,6 +16,8 @@ public class LightShows extends AppCompatActivity implements View.OnClickListene
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_32_0_lightshows);
+        getSupportActionBar().setTitle("Sounds and Light Shows");
+
         mandu_btn = (ImageButton) findViewById(R.id.mandu_btn);
         mandu_btn.setOnClickListener(this);
 
@@ -51,7 +53,7 @@ public class LightShows extends AppCompatActivity implements View.OnClickListene
     }
 
     public void GwaliorFort(){
-        Intent intent3 = new Intent(this, GwaliorFort.class);
+        Intent intent3 = new Intent(this, Fort_Gwalior.class);
         startActivity(intent3);
     }
 

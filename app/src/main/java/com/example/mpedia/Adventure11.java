@@ -10,5 +10,6 @@ public class Adventure11 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_36_11_adventure11);
+        getSupportActionBar().setTitle("Kayaking");
     }
 }

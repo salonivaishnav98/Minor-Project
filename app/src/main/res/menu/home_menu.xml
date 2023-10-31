@@ -1,15 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <!--  <item
+        android:id="@+id/search_icon"
+        android:title="search"
+        android:icon="@drawable/search_icon"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="com.google.android.material.search.SearchView"/>-->
+
     <item
-        android:id="@+id/item1"
-        android:title="Home"/>
+        android:id="@+id/plan_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/PlanYourTrip" />
     <item
-        android:id="@+id/item2"
-        android:title="@string/PlanYourTrip"/>
+        android:id="@+id/book_ticket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/BookTicket" />
     <item
-        android:id="@+id/item3"
-        android:title="@string/AboutUs"/>
-    <item
-        android:id="@+id/item4"
-        android:title="@string/User"/>
+        android:id="@+id/User"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="@string/User"
+        />
 </menu>

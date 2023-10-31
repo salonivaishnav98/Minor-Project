@@ -10,5 +10,6 @@ public class Adventure6 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_36_6_adventure6);
+        getSupportActionBar().setTitle("Speed Boating");
     }
 }

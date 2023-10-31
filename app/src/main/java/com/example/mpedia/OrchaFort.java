@@ -10,5 +10,6 @@ public class OrchaFort extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_32_4_orcha_fort);
+        getSupportActionBar().setTitle("Orcha Fort");
     }
 }

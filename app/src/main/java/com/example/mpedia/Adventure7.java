@@ -10,5 +10,6 @@ public class Adventure7 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_36_7_adventure7);
+        getSupportActionBar().setTitle("Sailling");
     }
 }

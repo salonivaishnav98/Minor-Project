@@ -10,5 +10,6 @@ public class Shopping extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_35_0_shopping);
+        getSupportActionBar().setTitle("Shopping");
     }
 }

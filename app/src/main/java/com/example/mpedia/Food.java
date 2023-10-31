@@ -10,5 +10,7 @@ public class Food extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_37_0_food);
+        getSupportActionBar().setTitle("Foods");
+
     }
 }

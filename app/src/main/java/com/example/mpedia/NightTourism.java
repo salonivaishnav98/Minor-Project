@@ -14,6 +14,9 @@ public class NightTourism extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_31_0_night_tourism);
+        getSupportActionBar().setTitle("Night Tourism");
+
+
         sarafa_btn = findViewById(R.id.sarafa_btn);
         sarafa_btn.setOnClickListener(this);
 

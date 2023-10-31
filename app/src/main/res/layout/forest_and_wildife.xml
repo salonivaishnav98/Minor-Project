@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Forest_And_Wildife"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/np_panna"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/np_panna"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/np_panna">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/np_panna"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/np_kuno"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/np_kuna"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/np_kuno">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/np_kuna"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/np_kanha"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/np_kanha"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/np_kanha">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/np_kanha"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/np_pench"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/np_pench"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/np_pench">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/np_pench"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/np_satpura"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/np_satpura"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/np_satpura">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/np_satpura"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

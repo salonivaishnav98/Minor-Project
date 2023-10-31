@@ -6,14 +6,11 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".MainActivity"
     android:orientation="vertical"
-    android:background="@color/white"
-    android:id="@+id/Layout1">
-
-
+    android:id="@+id/Layout1"
+    >
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:background="@color/white">
+        android:layout_height="230dp">
 
         <ViewFlipper
             android:layout_width="match_parent"
@@ -27,47 +24,10 @@
                 android:background="@drawable/gulawat"
                 android:scaleType="fitXY"/>
             <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/safari"
-                android:scaleType="fitXY"/>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/phoenix"
-                android:scaleType="fitXY"/>
-
-            <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
-                android:background="@drawable/img2" />
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/img6"
-                android:scaleType="fitXY" />
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/tribalbhopal"
-                android:scaleType="fitXY"/>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/sarafa"
-                android:scaleType="fitXY" />
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/saila_dance"
-                android:scaleType="fitXY" />
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@drawable/maheshwar"
-                android:scaleType="fitXY" />
+                android:background="@drawable/fort_gwalior" />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -76,68 +36,100 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:background="@drawable/img6"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:background="@drawable/mandu_night"
                 android:scaleType="fitXY" />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/maheshwar"
+                android:background="@drawable/fort_maheshwar"
                 android:scaleType="fitXY" />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/panchmarhi_hill"
                 android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/choraldam"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/khajuraho_night"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/tribalbhopal"
+                android:scaleType="fitXY"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pitraparwat"
+                android:scaleType="fitXY" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/safari"
+                android:scaleType="fitXY" />
+
+
+
         </ViewFlipper>
     </LinearLayout>
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@color/white">
-
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:background="@color/white">
-
+        android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:layout_margin="5dp"
                 android:orientation="vertical"
-                >
+                android:background="@drawable/lower">
 
+              <androidx.appcompat.widget.SearchView
+                  android:id="@+id/search_city"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:queryHint="Search City"
+                  android:background="@drawable/upper"
+                  android:layout_margin="5dp"
+                  app:iconifiedByDefault="false"
+                  />
                 <HorizontalScrollView
-                    android:layout_marginTop="5dp"
                     android:layout_width="wrap_content"
-                    android:layout_height="110dp">
+                    android:layout_height="wrap_content">
+
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="110dp"
-                        android:layout_margin="5dp">
+                        android:layout_height="120dp"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp">
 
                         <LinearLayout
                             android:layout_width="100dp"
-                            android:layout_height="110dp"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="3dp">
+                            android:gravity="center"
+                            android:background="@drawable/upper">
 
                             <ImageButton
                                 android:id="@+id/experienceMP"
-                                android:layout_width="70dp"
+                                android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:layout_marginLeft="10dp"
                                 android:background="@drawable/namste_backgraound"
                                 android:contentDescription="@string/ExperienceMP"/>
 
                             <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="30dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
                                 android:fontFamily="sans-serif-condensed-medium"
                                 android:text="@string/ExperienceMP"
                                 android:textAlignment="center"
@@ -145,22 +137,23 @@
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_marginLeft="10dp"
+                            android:layout_marginLeft="15dp"
                             android:layout_width="100dp"
-                            android:layout_height="110dp"
-                            android:orientation="vertical">
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:background="@drawable/upper">
 
                             <ImageButton
                                 android:id="@+id/events"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:layout_marginLeft="5dp"
                                 android:background="@drawable/celebration"
                                 android:contentDescription="@string/ExploreMP"/>
 
                             <TextView
                                 android:layout_width="100dp"
-                                android:layout_height="20dp"
+                                android:layout_height="wrap_content"
                                 android:fontFamily="sans-serif-condensed-medium"
                                 android:text="@string/Events"
                                 android:textAlignment="center"
@@ -169,24 +162,23 @@
 
 
                         <LinearLayout
-                            android:layout_marginLeft="10dp"
+                            android:layout_marginLeft="15dp"
                             android:layout_width="100dp"
-                            android:layout_height="110dp"
-                            android:orientation="vertical">
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:background="@drawable/upper">
 
                             <ImageButton
                                 android:id="@+id/touristattraction"
-                                android:layout_marginTop="5dp"
-                                android:layout_marginStart="6dp"
-                                android:layout_width="70dp"
-                                android:layout_height="75dp"
-                                android:layout_marginLeft="5dp"
+                                android:layout_width="80dp"
+                                android:layout_height="70dp"
                                 android:background="@drawable/fortcartoon"
                                 android:contentDescription="@string/ArtandCraft"/>
 
                             <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="35dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
                                 android:fontFamily="sans-serif-condensed-medium"
                                 android:text="@string/TouristAttraction"
                                 android:textAlignment="center"
@@ -195,45 +187,47 @@
 
 
                         <LinearLayout
-                            android:layout_marginLeft="10dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="110dp"
-                            android:orientation="vertical">
+                            android:layout_marginLeft="15dp"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:background="@drawable/upper">
 
                             <ImageButton
                                 android:id="@+id/photosbtn"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:layout_marginLeft="5dp"
                                 android:background="@drawable/camerasticker"
                                 android:contentDescription="@string/ForestandWildlife"/>
 
                             <TextView
-                                android:layout_width="100dp"
-                                android:layout_height="40dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
                                 android:fontFamily="sans-serif-condensed-medium"
                                 android:text="@string/Photos"
                                 android:textAlignment="center"
-                                android:textColor="@color/black"></TextView>
+                                android:textColor="@color/black"/>
                         </LinearLayout>
 
                         <LinearLayout
-                            android:layout_marginLeft="10dp"
-                            android:layout_width="wrap_content"
-                            android:layout_height="110dp"
-                            android:orientation="vertical">
+                            android:layout_marginLeft="15dp"
+                            android:layout_width="100dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:gravity="center"
+                            android:background="@drawable/upper">
 
                             <ImageButton
                                 android:id="@+id/videobtn"
                                 android:layout_width="80dp"
                                 android:layout_height="80dp"
-                                android:layout_marginLeft="5dp"
                                 android:background="@drawable/videosticker"
                                 android:contentDescription="@string/AboutUs"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
-                                android:layout_height="40dp"
+                                android:layout_height="wrap_content"
                                 android:fontFamily="sans-serif-condensed-medium"
                                 android:text="@string/ExploreMP"
                                 android:textAlignment="center"
@@ -244,46 +238,59 @@
 
                 </HorizontalScrollView>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="15dp">
 
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/upper"
-                    android:fontFamily="sans-serif-medium"
-                    android:padding="7dp"
+                    android:backgroundTintMode="multiply"
+                    android:fontFamily="serif"
                     android:text="@string/TouristAttraction"
+                    android:paddingLeft="5dp"
+                    android:textAlignment="viewStart"
+                    android:textAllCaps="false"
                     android:textColor="@color/black"
-                    android:textSize="20sp" />
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:emojiCompatEnabled="false" />
 
                 <HorizontalScrollView
                     android:layout_width="wrap_content"
-                    android:layout_height="140dp"
-                    android:layout_marginTop="5dp">
+                    android:layout_height="wrap_content">
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="140dp">
+                        android:layout_height="150dp"
+                        android:layout_marginTop="5dp">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
                             android:layout_marginLeft="5dp"
+                            android:gravity="center"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
                                 android:text="@string/FortsPlaces"
+                                android:textAlignment="center"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:id="@+id/forts"
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/tourist_attraction_forts"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/img2"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/orcha_night"
                                 android:scaleType="fitXY"
+                                android:background="@drawable/image_button_shape"
                                 android:contentDescription="@string/FortsPlaces"
                                 />
 
@@ -292,23 +299,27 @@
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
                                 android:text="@string/ForestandWildlife"
+                                android:textAlignment="center"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:id="@+id/wildlife"
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/tourist_attraction_wildlife"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/img7"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/img7"
+                                android:background="@drawable/image_button_shape"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/FortsPlaces"
                                 />
@@ -316,23 +327,27 @@
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
                                 android:text="@string/Nature"
+                                android:textAlignment="center"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:id="@+id/nature"
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/tourist_attraction_nature"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/bhedaghat"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/bhedaghat"
+                                android:background="@drawable/image_button_shape"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/FortsPlaces"
                                 />
@@ -340,22 +355,25 @@
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
                                 android:text="@string/Spirituals"
+                                android:textAlignment="center"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:id="@+id/spirituals"
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/tourist_attraction_spirituals"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
+                                android:layout_height="match_parent"
                                 android:background="@drawable/img6"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/FortsPlaces"
@@ -365,17 +383,199 @@
                     </LinearLayout>
 
                 </HorizontalScrollView>
+            </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/upper"
-                    android:fontFamily="sans-serif-medium"
-                    android:padding="5dp"
-                    android:text="@string/TouristDestinations"
-                    android:textColor="@color/black"
-                    android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:paddingLeft="5dp"
+                android:text="@string/TouristDestinations"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="5dp">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/upper"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:text="@string/Indore"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/indore"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/rajwada"
+                                android:background="@drawable/image_button_shape"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Indore"
+                                />
+
+                        </LinearLayout>
+
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:text="@string/Ujjain"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/ujjain"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/mahakaleshwar"
+                                android:background="@drawable/image_button_shape"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Ujjain"
+                                />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:text="@string/Bhopal"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/bhopal"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/bhopalcity"
+                                android:background="@drawable/image_button_shape"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Indore"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:text="@string/Gwalior"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/gwalior"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/fort_gwalior"
+                                android:scaleType="fitXY"
+                                android:background="@drawable/image_button_shape"
+                                android:contentDescription="@string/Gwalior"
+                                />
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:text="@string/Khajuraho"
+                                android:textAlignment="center"
+                                android:textColor="@color/black" />
+
+                            <ImageButton
+                                android:id="@+id/khajuraho"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/img6"
+                                android:background="@drawable/image_button_shape"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Khajuraho" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:paddingLeft="5dp"
+                android:text="@string/ExploreMP"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
                 <HorizontalScrollView
                     android:layout_width="wrap_content"
@@ -384,6 +584,37 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="140dp">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="5dp"
+                            android:background="@drawable/upper"
+                            >
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textAlignment="center"
+                                android:fontFamily="serif"
+                                android:background="@drawable/upper"
+                                android:text="@string/textiles"
+                                android:textColor="@color/black" />
+                            <ImageButton
+                                android:id="@+id/explore_textiles"
+                                android:layout_marginTop="5dp"
+                                android:layout_width="150dp"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/shop3"
+                                android:background="@drawable/image_button_shape"
+                                android:scaleType="fitXY"
+                                android:contentDescription="@string/Indore"
+                                />
+
+                        </LinearLayout>
+
+
 
                         <LinearLayout
                             android:layout_width="wrap_content"
@@ -395,193 +626,19 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
-                                android:paddingLeft="5dp"
-                                android:text="@string/Indore"
-                                android:textColor="@color/black" />
-                            <ImageButton
-                                android:id="@+id/indore"
-                                android:layout_marginTop="10dp"
-                                android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/rajwada"
-                                android:scaleType="fitXY"
-                                android:contentDescription="@string/Indore"
-                                />
-
-                        </LinearLayout>
-
-
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
-                            >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
-                                android:text="@string/Ujjain"
-                                android:textColor="@color/black" />
-                            <ImageButton
-                                android:id="@+id/ujjain"
-                                android:layout_marginTop="10dp"
-                                android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/mhallok"
-                                android:scaleType="fitXY"
-                                android:contentDescription="@string/Ujjain"
-                                />
-
-                        </LinearLayout>
-
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
-                            >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
-                                android:text="@string/Bhopal"
-                                android:textColor="@color/black" />
-                            <ImageButton
-                                android:id="@+id/bhopal"
-                                android:layout_marginTop="10dp"
-                                android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/bhopalcity"
-                                android:scaleType="fitXY"
-                                android:contentDescription="@string/Indore"
-                                />
-
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
-                            >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
-                                android:text="@string/Gwalior"
-                                android:textColor="@color/black" />
-                            <ImageButton
-                                android:id="@+id/gwalior"
-                                android:layout_marginTop="10dp"
-                                android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/img2"
-                                android:scaleType="fitXY"
-                                android:contentDescription="@string/Gwalior"
-                                />
-
-                        </LinearLayout>
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
-                            >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
-                                android:text="@string/Khajuraho"
-                                android:textColor="@color/black" />
-
-                            <ImageButton
-                                android:id="@+id/khajuraho"
-                                android:layout_marginTop="10dp"
-                                android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/img6"
-                                android:scaleType="fitXY"
-                                android:contentDescription="@string/Khajuraho" />
-
-                        </LinearLayout>
-                    </LinearLayout>
-
-                </HorizontalScrollView>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/upper"
-                    android:fontFamily="sans-serif-medium"
-                    android:padding="5dp"
-                    android:text="@string/ExploreMP"
-                    android:textColor="@color/black"
-                    android:textSize="20sp" />
-
-                <HorizontalScrollView
-                    android:layout_width="wrap_content"
-                    android:layout_height="140dp"
-                    android:layout_marginTop="5dp">
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="140dp">
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
-                            >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
-                                android:text="@string/ArtandCraft"
-                                android:textColor="@color/black" />
-                            <ImageButton
-                                android:id="@+id/rajwada"
-                                android:layout_marginTop="10dp"
-                                android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/artcraft"
-                                android:scaleType="fitXY"
-                                android:contentDescription="@string/Indore"
-                                />
-
-                        </LinearLayout>
-
-
-
-                        <LinearLayout
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
-                            >
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:background="@drawable/upper"
+                                android:textAlignment="center"
+                                android:fontFamily="serif"
                                 android:text="@string/SoundandLightShows"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:id="@+id/b"
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/explore_lihghtshow"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/sachinight"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/orcha_night"
                                 android:scaleType="fitXY"
+                                android:background="@drawable/image_button_shape"
                                 android:contentDescription="@string/Ujjain"
                                 />
 
@@ -590,23 +647,29 @@
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
                                 android:text="@string/FFood"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/explore_food"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/food"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/food8"
                                 android:scaleType="fitXY"
+                                android:background="@drawable/image_button_shape"
                                 android:contentDescription="@string/Indore"
                                 />
 
@@ -614,22 +677,28 @@
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:textAlignment="center"
                                 android:text="@string/MusicandDance"
+                                android:textSize="15sp"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/explore_Dance"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/karmadance"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/saila_dance"
+                                android:background="@drawable/image_button_shape"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/Gwalior"
                                 />
@@ -637,23 +706,29 @@
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/upper"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:textAlignment="center"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:textSize="15sp"
                                 android:text="@string/Adventure"
                                 android:textColor="@color/black" />
 
                             <ImageButton
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/explore_adventure"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/safari"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/adventure2"
+                                android:background="@drawable/image_button_shape"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/Khajuraho" />
 
@@ -661,17 +736,24 @@
                     </LinearLayout>
 
                 </HorizontalScrollView>
+        </LinearLayout>
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp"
-                    android:background="@drawable/upper"
-                    android:fontFamily="sans-serif-medium"
-                    android:padding="5dp"
-                    android:text="@string/Photos"
-                    android:textColor="@color/black"
-                    android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="serif"
+                android:text="@string/fvrt"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
                 <HorizontalScrollView
                     android:layout_width="wrap_content"
@@ -679,26 +761,31 @@
                     android:layout_marginTop="5dp">
                     <LinearLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="140dp">
+                        android:layout_height="match_parent">
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
                             android:layout_marginLeft="5dp"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:textAlignment="center"
+                                android:background="@drawable/upper"
+                                android:textSize="15sp"
+                                android:fontFamily="serif"
                                 android:text="@string/Panchmarhi"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/fvrt_panchmarhi"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/panchmarhi_hill"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/image_button_shape"
+                                android:src="@drawable/panchmarhi_hill"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/Indore"
                                 />
@@ -707,22 +794,28 @@
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
                                 android:text="@string/Bhedaghat_Jabalpur"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/fvrt_bhedghat"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/bhedaghat"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/bhedaghat"
+                                android:background="@drawable/image_button_shape"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/Ujjain"
                                 />
@@ -732,22 +825,28 @@
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
-                                android:text="@string/Pitraparvat_indore"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:textSize="15sp"
+                                android:textAlignment="center"
+                                android:text="@string/mandu"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/fvrt_mandav"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/pitraparwat"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/fort_mandav"
+                                android:background="@drawable/fort_mandav"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/Indore"
                                 />
@@ -756,22 +855,28 @@
 
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:textAlignment="center"
+                                android:textSize="15sp"
                                 android:text="@string/maheshwarimg"
                                 android:textColor="@color/black" />
                             <ImageButton
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/fvrt_maheshwar"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/maheshwar"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/fort_maheshwar"
+                                android:background="@drawable/image_button_shape"
                                 android:scaleType="fitXY"
                                 android:contentDescription="@string/maheshwarimg"
                                 />
@@ -779,36 +884,42 @@
                         </LinearLayout>
                         <LinearLayout
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
+                            android:layout_height="match_parent"
                             android:orientation="vertical"
-                            android:layout_marginLeft="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/upper"
                             >
 
                             <TextView
-                                android:layout_width="wrap_content"
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:fontFamily="sans-serif-condensed-medium"
-                                android:text="Safari"
+                                android:textSize="15sp"
+                                android:textAlignment="center"
+                                android:background="@drawable/upper"
+                                android:fontFamily="serif"
+                                android:text="@string/Khajuraho"
                                 android:textColor="@color/black" />
 
                             <ImageButton
-                                android:layout_marginTop="10dp"
+                                android:id="@+id/fvrt_khaajuraho"
+                                android:layout_marginTop="5dp"
                                 android:layout_width="150dp"
-                                android:layout_height="100dp"
-                                android:background="@drawable/safari"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/img6"
+                                android:background="@drawable/image_button_shape"
                                 android:scaleType="fitXY"
                                 android:contentDescription="Safari" />
 
                         </LinearLayout>
-
                     </LinearLayout>
 
                 </HorizontalScrollView>
+        </LinearLayout>
 
             </LinearLayout>
 
-        </LinearLayout>
-
     </ScrollView>
+
+
 
 </LinearLayout>

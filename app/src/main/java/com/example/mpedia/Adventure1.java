@@ -10,5 +10,6 @@ public class Adventure1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_36_1_adventure1);
+        getSupportActionBar().setTitle("Safari");
     }
 }

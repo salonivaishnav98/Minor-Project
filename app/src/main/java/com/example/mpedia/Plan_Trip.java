@@ -10,5 +10,6 @@ public class Plan_Trip extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plan_trip);
+        getSupportActionBar().setTitle("Plan Your Trip");
     }
 }

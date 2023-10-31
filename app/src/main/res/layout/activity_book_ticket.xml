@@ -8,7 +8,14 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="20dp"
-    android:background="@drawable/lower">
+    android:background="@drawable/background_nude">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#85FFFFFF"
+        android:padding="20dp">
 
         <TextView
             android:layout_width="match_parent"
@@ -25,38 +32,48 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
+
             <RadioButton
                 android:id="@+id/rb1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Train"
-                android:fontFamily="sans-serif-medium"
-                android:textColor="@color/black"
                 android:drawableLeft="@drawable/train"
                 android:drawablePadding="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:text="Train"
+                android:textColor="@color/black"
                 tools:ignore="VisualLintButtonSize" />
+
             <RadioButton
                 android:id="@+id/rb2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:textColor="@color/black"
-                android:text="Bus"
                 android:drawableLeft="@drawable/bus"
-                android:drawablePadding="5dp"/>
+                android:drawablePadding="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:text="Bus"
+                android:textColor="@color/black" />
+
             <RadioButton
                 android:id="@+id/rb3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-medium"
-                android:textColor="@color/black"
-                android:text="Flight"
                 android:drawableLeft="@drawable/flight"
-                android:drawablePadding="5dp"/>
+                android:drawablePadding="5dp"
+                android:fontFamily="sans-serif-medium"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:text="Flight"
+                android:textColor="@color/black" />
 
         </RadioGroup>
 
         <Button
+            android:layout_marginTop="10dp"
             android:id="@+id/ticketBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -64,6 +81,6 @@
             android:background="@drawable/upper"/>
 
 
-
+    </LinearLayout>
 
 </LinearLayout>

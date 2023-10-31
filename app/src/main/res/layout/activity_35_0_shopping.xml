@@ -6,21 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".Shopping"
     android:orientation="vertical"
-    android:background="@color/white"
     android:gravity="center"
-    android:layout_margin="5dp">
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/Shopping"
-        android:textSize="20sp"
-        android:background="@drawable/lower"
-        android:fontFamily="sans-serif-medium"
-        android:textColor="@color/black"
-        android:padding="10dp"
-        android:textAlignment="center"/>
-
+    >
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">

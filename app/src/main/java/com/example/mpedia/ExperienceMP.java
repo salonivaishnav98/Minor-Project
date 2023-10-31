@@ -9,12 +9,14 @@ import android.view.View;
 import android.widget.ImageButton;
 
 public class ExperienceMP extends AppCompatActivity implements View.OnClickListener {
-    ImageButton night_tourism,sound_light_btn,musicdances,textiles,shopping,adventure;
+    ImageButton night_tourism,sound_light_btn,musicdances,textiles,shopping,adventure,foods;
     @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_30_experience_mp);
+        getSupportActionBar().setTitle("Experience MP");
+        //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         night_tourism = (ImageButton) findViewById(R.id.night_tourism);
         night_tourism.setOnClickListener(this);
@@ -33,6 +35,9 @@ public class ExperienceMP extends AppCompatActivity implements View.OnClickListe
 
         adventure = (ImageButton) findViewById(R.id.adventure);
         adventure.setOnClickListener(this);
+
+        foods = (ImageButton) findViewById(R.id.foods);
+        foods.setOnClickListener(this);
     }
 
     @Override
@@ -43,6 +48,7 @@ public class ExperienceMP extends AppCompatActivity implements View.OnClickListe
         if(v.getId() == R.id.textiles){Textiles();}
         if(v.getId() == R.id.shopping){Shopping();}
         if(v.getId() == R.id.adventure){Adventure();}
+        if(v.getId() == R.id.foods){Food();}
 
     }
     public void NightTourism(){
@@ -74,5 +80,10 @@ public class ExperienceMP extends AppCompatActivity implements View.OnClickListe
     public void Adventure(){
         Intent intent6 = new Intent(this, Adventure.class);
         startActivity(intent6);
+    }
+
+    public void Food(){
+        Intent intent7 = new Intent(this, Food.class);
+        startActivity(intent7);
     }
 }

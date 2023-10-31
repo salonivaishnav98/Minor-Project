@@ -10,5 +10,6 @@ public class Adventure3 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_36_3_adventure3);
+        getSupportActionBar().setTitle("Trekking");
     }
 }

@@ -10,5 +10,6 @@ public class Adventure10 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_36_10_adventure10);
+        getSupportActionBar().setTitle("Water Sports");
     }
 }

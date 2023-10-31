@@ -10,5 +10,6 @@ public class BandhavgarhNP extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_31_4_bandhavgarh_np);
+        getSupportActionBar().setTitle("Bandhavgarh National park");
     }
 }

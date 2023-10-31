@@ -6,24 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".Plan_Trip"
     android:orientation="vertical"
-    android:background="@color/white"
-    >
+    android:background="@drawable/background_nude"
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="@string/PlanYourTrip"
-        android:textSize="20sp"
-        android:background="@drawable/lower"
-        android:padding="10dp"/>
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/lower"
-        android:layout_marginTop="10dp"
         android:orientation="vertical"
         android:padding="10dp"
+        android:background="#9FFFFFFF"
         >
         <TextView
             android:layout_width="match_parent"
@@ -31,10 +22,12 @@
             android:text="Select a city"
             android:textSize="20sp"
             android:fontFamily="sans-serif-black"
-            android:layout_margin="10dp"/>
+            android:padding="10dp"
+            />
         <RadioGroup
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            >
             <RadioButton
                 android:id="@+id/city1"
                 android:layout_width="match_parent"

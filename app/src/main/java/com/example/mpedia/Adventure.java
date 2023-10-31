@@ -12,6 +12,7 @@ public class Adventure extends AppCompatActivity implements View.OnClickListener
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setTitle("Adventure");
         setContentView(R.layout.activity_36_0_adventure);
         adventure1 = findViewById(R.id.adventure1);
         adventure1.setOnClickListener(this);

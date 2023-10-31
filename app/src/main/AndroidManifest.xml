@@ -10,122 +10,334 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MPedia"
+        android:theme="@style/Base.Theme.MPedia"
         tools:targetApi="31">
         <activity
-            android:name=".Food"
-            android:exported="false" />
+            android:name=".SearchCity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
         <activity
-            android:name=".Adventure15"
-            android:exported="false" />
+            android:name=".Train_Booking0"
+            android:exported="false"
+            android:parentActivityName=".BookTicket"/>
         <activity
-            android:name=".Adventure14"
-            android:exported="false" />
+            android:name=".Reset_password"
+            android:exported="false"
+            android:parentActivityName=".Forget_Password" />
         <activity
-            android:name=".Adventure13"
-            android:exported="false" />
+            android:name=".Forget_Password"
+            android:exported="false"
+            android:parentActivityName=".LogIn" />
         <activity
-            android:name=".Adventure12"
-            android:exported="false" />
+            android:name=".Create_Account"
+            android:exported="false"
+            android:parentActivityName=".BookTicket" />
         <activity
-            android:name=".Adventure11"
-            android:exported="false" />
+            android:name=".LogIn"
+            android:exported="false"
+            android:parentActivityName=".BookTicket" />
         <activity
-            android:name=".Adventure10"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure9"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure8"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure7"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure6"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure5"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure4"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure3"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure2"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure1"
-            android:exported="false" />
-        <activity
-            android:name=".Adventure"
-            android:exported="false" />
-        <activity
-            android:name=".Textiles"
-            android:exported="false" />
-        <activity
-            android:name=".Shopping"
-            android:exported="false" />
-        <activity
-            android:name=".MusicDance"
-            android:exported="false" />
-        <activity
-            android:name=".BandhavgarhNP"
-            android:exported="false" />
-        <activity
-            android:name=".PenchNP"
-            android:exported="false" />
-        <activity
-            android:name=".KanhaNP"
-            android:exported="false" />
-        <activity
-            android:name=".GwaliorFort"
-            android:exported="false" />
-        <activity
-            android:name=".KhajurahoFort"
-            android:exported="false" />
-        <activity
-            android:name=".Sachi"
-            android:exported="false" />
-        <activity
-            android:name=".OrchaFort"
-            android:exported="false" />
-        <activity
-            android:name=".Mandu"
-            android:exported="false" />
-        <activity
-            android:name=".Sarafa"
-            android:exported="false" />
-        <activity
-            android:name=".NightTourism"
-            android:exported="false" />
-        <activity
-            android:name=".LightShows"
-            android:exported="false" />
-        <activity
-            android:name=".Events"
-            android:exported="false" />
+            android:name=".BookTicket"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Plan_Trip"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".Indore_Plan"
             android:exported="false" />
         <activity
-            android:name=".ExperienceMP"
-            android:exported="false" />
+            android:name=".Photos"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name=".BookTicket"
-            android:exported="false" />
+            android:name=".Spiritual_Mahakaleshwar"
+            android:exported="false"
+            android:parentActivityName=".Spirituals" />
+        <activity
+            android:name=".Spiritual_Maheshwar"
+            android:exported="false"
+            android:parentActivityName=".Spirituals" />
+        <activity
+            android:name=".Spiritual_Omkareshwar"
+            android:exported="false"
+            android:parentActivityName=".Spirituals" />
+        <activity
+            android:name=".Spiritual_Khajarana"
+            android:exported="false"
+            android:parentActivityName=".Spirituals" />
+        <activity
+            android:name=".Spiritual_Khajuraho"
+            android:exported="false"
+            android:parentActivityName=".Spirituals" />
+        <activity
+            android:name=".Spirituals"
+            android:exported="false"
+            android:parentActivityName=".Tourist_Attraction" />
+        <activity
+            android:name=".Nature_Ralamandal"
+            android:exported="false"
+            android:parentActivityName=".Nature" />
+        <activity
+            android:name=".Nature_Janapav"
+            android:exported="false"
+            android:parentActivityName=".Nature" />
+        <activity
+            android:name=".Nature_Gulawat"
+            android:exported="false"
+            android:parentActivityName=".Nature" />
+        <activity
+            android:name=".Nature_ChoralDam"
+            android:exported="false"
+            android:parentActivityName=".Nature" />
+        <activity
+            android:name=".Nature_patalpani"
+            android:exported="false"
+            android:parentActivityName=".Nature" />
+        <activity
+            android:name=".Nature_Panchmarhi"
+            android:exported="false"
+            android:parentActivityName=".Nature" />
+        <activity
+            android:name=".Nature_Bhedghat"
+            android:exported="false"
+            android:parentActivityName=".Nature" />
+        <activity
+            android:name=".NP_Kanha"
+            android:exported="false"
+            android:parentActivityName=".Forest_And_Wildife" />
+        <activity
+            android:name=".NP_Kuno"
+            android:exported="false"
+            android:parentActivityName=".Forest_And_Wildife" />
+        <activity
+            android:name=".NP_Satpura"
+            android:exported="false"
+            android:parentActivityName=".Forest_And_Wildife" />
+        <activity
+            android:name=".NP_Pench"
+            android:exported="false"
+            android:parentActivityName=".Forest_And_Wildife" />
+        <activity
+            android:name=".NP_Panna"
+            android:exported="false"
+            android:parentActivityName=".Forest_And_Wildife" />
+        <activity
+            android:name=".Fort_Maheshwar"
+            android:exported="false"
+            android:parentActivityName=".FortsAndPlaces" />
+        <activity
+            android:name=".Fort_Orcha"
+            android:exported="false"
+            android:parentActivityName=".FortsAndPlaces" />
+        <activity
+            android:name=".Fort_Mandav"
+            android:exported="false"
+            android:parentActivityName=".FortsAndPlaces" />
+        <activity
+            android:name=".Fort_Gwalior"
+            android:exported="false"
+            android:parentActivityName=".FortsAndPlaces" />
+        <activity
+            android:name=".Nature"
+            android:exported="false"
+            android:parentActivityName=".Tourist_Attraction" />
+        <activity
+            android:name=".Forest_And_Wildife"
+            android:exported="false"
+            android:parentActivityName=".Tourist_Attraction" />
+        <activity
+            android:name=".FortsAndPlaces"
+            android:exported="false"
+            android:parentActivityName=".Tourist_Attraction" />
+        <activity
+            android:name=".Tourist_Attraction"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Event12"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event11"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event10"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event9"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event8"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event7"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event6"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event5"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event4"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event3"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event2"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Event1"
+            android:exported="false"
+            android:parentActivityName=".Events" />
+        <activity
+            android:name=".Food"
+            android:exported="false"
+            android:parentActivityName=".ExperienceMP" />
+        <activity
+            android:name=".Adventure15"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure14"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure13"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure12"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure11"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure10"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure9"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure8"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure7"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure6"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure5"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure4"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure3"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure2"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure1"
+            android:exported="false"
+            android:parentActivityName=".Adventure" />
+        <activity
+            android:name=".Adventure"
+            android:exported="false"
+            android:parentActivityName=".ExperienceMP" />
+        <activity
+            android:name=".Textiles"
+            android:exported="false"
+            android:parentActivityName=".ExperienceMP" />
+        <activity
+            android:name=".Shopping"
+            android:exported="false"
+            android:parentActivityName=".ExperienceMP" />
+        <activity
+            android:name=".MusicDance"
+            android:exported="false"
+            android:parentActivityName=".ExperienceMP" />
+        <activity
+            android:name=".BandhavgarhNP"
+            android:exported="false"
+            android:parentActivityName=".NightTourism" />
+        <activity
+            android:name=".PenchNP"
+            android:exported="false"
+            android:parentActivityName=".NightTourism" />
+        <activity
+            android:name=".KanhaNP"
+            android:exported="false"
+            android:parentActivityName=".NightTourism" />
+        <activity
+            android:name=".KhajurahoFort"
+            android:exported="false"
+            android:parentActivityName=".LightShows" />
+        <activity
+            android:name=".Sachi"
+            android:exported="false"
+            android:parentActivityName=".LightShows" />
+        <activity
+            android:name=".OrchaFort"
+            android:exported="false"
+            android:parentActivityName=".LightShows" />
+        <activity
+            android:name=".Mandu"
+            android:exported="false"
+            android:parentActivityName=".LightShows" />
+        <activity
+            android:name=".Sarafa"
+            android:exported="false"
+            android:parentActivityName=".NightTourism" />
+        <activity
+            android:name=".NightTourism"
+            android:exported="false"
+            android:parentActivityName=".ExperienceMP" />
+        <activity
+            android:name=".LightShows"
+            android:exported="false"
+            android:parentActivityName=".ExperienceMP" />
+        <activity
+            android:name=".Events"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ExperienceMP"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Splash_activity"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

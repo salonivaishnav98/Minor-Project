@@ -5,26 +5,42 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Splash_activity"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:background="@drawable/lower">
+    android:background="@drawable/background_nude">
 
-    <ImageView
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:src="@drawable/colorfullogo" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ADFFFFFF"
+            android:orientation="vertical"
+            android:gravity="center">
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@drawable/colorfullogo"
+            android:contentDescription="@string/app_name" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Welcome to MP Tourism"
-        android:textSize="20sp"
-        android:textColor="@color/black"
-        />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Explore Your Favourite Journey"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/head1"
+            android:textAlignment="center"
+            android:textColor="@color/darkgreen"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/head2"
+            android:textAlignment="center"
+            android:textColor="@color/darkgreen"
+            android:layout_marginTop="5dp"/>
+
+
+
+</LinearLayout>
 
 </LinearLayout>

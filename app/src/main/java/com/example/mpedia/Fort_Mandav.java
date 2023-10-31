@@ -4,11 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class GwaliorFort extends AppCompatActivity {
+public class Fort_Mandav extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_32_1_gwalior_fort);
+        setContentView(R.layout.fort_mandav);
+        getSupportActionBar().setTitle("Mandav Fort");
     }
 }

@@ -10,5 +10,6 @@ public class Mandu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_32_3_mandu);
+        getSupportActionBar().setTitle("Mandav Fort");
     }
 }

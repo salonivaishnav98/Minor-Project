@@ -10,5 +10,6 @@ public class KanhaNP extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_31_2_kanha_np);
+        getSupportActionBar().setTitle("Kanha National Park");
     }
 }

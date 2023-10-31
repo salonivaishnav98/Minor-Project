@@ -13,6 +13,7 @@ public class Splash_activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_01_splash);
 
+
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {

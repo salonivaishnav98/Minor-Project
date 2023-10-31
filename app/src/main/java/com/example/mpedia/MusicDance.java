@@ -10,5 +10,6 @@ public class MusicDance extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_33_0_music_dance);
+        getSupportActionBar().setTitle("Music and Dance");
     }
 }

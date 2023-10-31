@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogIn"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background_nude">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:background="#70FFFFFF">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="Login Your Account"
+            android:textAlignment="center"
+            android:textColor="#0E0E0E"
+            android:textSize="20sp" />
+
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Username"
+                android:paddingBottom="20dp" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Password"
+                android:inputType="textPassword"
+                android:paddingBottom="20dp" />
+
+            <TextView
+                android:id="@+id/forgetP"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="Forget Password?"
+                android:textAlignment="textEnd"
+                android:textColor="#710A0A"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/loginB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="LOGIN"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/create_acc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="Dont't have account? Sign Up"
+                android:textAlignment="center" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

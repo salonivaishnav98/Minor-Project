@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Nature"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="10dp"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/nature0"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/Bhedaghat_Jabalpur"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/bhedaghat">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Bhedaghat_Jabalpur"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/nature1"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/Bhedaghat_Jabalpur"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/panchmarhi_hill">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Panchmarhi"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/nature2"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/Patalpani"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/patalpani">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Patalpani"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/nature3"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/Choraldam"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/choraldam">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Choraldam"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/nature4"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/Gulawat"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/gulawat">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Gulawat"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/nature5"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/Janapav"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/janapav">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Janapav"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:background="@drawable/upper"
+                android:padding="5dp"
+                android:layout_marginBottom="10dp"
+                >
+
+                <ImageButton
+                    android:id="@+id/nature6"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:contentDescription="@string/Ralamandal"
+                    android:scaleType="fitXY"
+                    android:background="@drawable/ralamandal">
+                </ImageButton>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Ralamandal"
+                    android:padding="5dp"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    android:fontFamily="serif"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

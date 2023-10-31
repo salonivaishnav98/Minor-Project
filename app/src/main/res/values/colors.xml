@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--theme color-->
+    <color name="my_light_primary">#D2BF9FF8</color>
+    <color name="colorPrimaryDark">#798241F4</color>
+    <color name="colorAccent">#798241F4</color>
+
+
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <!--dark-->
     <color name="darkBlue">#0520B6</color>
 
     <!--light-->
-    <color name="lightrama">#F1FAF9</color>
+    <color name="purple">#72C9AEFA</color>
     <color name="darkrama">#A5F1FB""</color>
 
     <!--text background-->
-    <color name="green">#3B8A83</color>
-    <color name="darkgreen">#185C56</color>
+    <color name="green">#56B4AC</color>
+    <color name="darkgreen">#05312E</color>
+
+    <color name="transparent">#6DFFFFFF</color>
+    <color name="red">#C50505</color>
 
 </resources>
