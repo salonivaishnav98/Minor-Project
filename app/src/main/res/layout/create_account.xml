@@ -31,7 +31,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:hint="Username"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:hint="Email"
             android:minHeight="48dp" />
 
         <EditText
@@ -40,8 +42,8 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:hint="Contact No"
-            android:maxLength="10"
-            android:inputType="number"
+            android:padding="5dp"
+            android:inputType="phone"
             android:minHeight="48dp" />
 
         <EditText

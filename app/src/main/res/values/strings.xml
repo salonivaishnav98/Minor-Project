@@ -473,5 +473,88 @@ Initially what was the residential area of the queen has now been converted into
     <string name="np_kuna">Kuno National Park</string>
     <string name="np_kuna_des">Previously known as a wildlife sanctuary, Kuno National Park is home to African cheetahs, which were reintroduced here in September 2022. The national park covers an area of 344.686 square kilometres across the districts of Sheopur and Morena in Madhya Pradesh. Other than the cheetahs, it is also home to other wonderful species like sloth bear, Indian wolf, Indian leopard, jungle cat, Bengal fox etc.</string>
 
+    <!--Ujjin description-->
+    <string name="ujjain1">Mahakaleshwar Jyotirlinga</string>
+    <string name="ujjain1_des">Mahakaleshwar Jyotirlinga is a Hindu temple dedicated to Shiva and is one of the twelve Jyotirlingas, shrines which are said to be the most sacred abodes of Shiva. It is located in the ancient city of Ujjain in the state of Madhya Pradesh, India. The temple is situated on the side of the holy river Shipra. The presiding deity, Shiva in the lingam form is believed to be Swayambhu, deriving currents of power (Shakti) from within itself as against the other images and lingams that are ritually established and invested with mantra-shakti.</string>
+    <string name="ujjain1_plan">Morning:\n\n1. Start your day by visiting the Mahakaleshwar Jyotirlinga Temple. One of the most reserved temples in Ujjain. It\'s usually less crowd in the morning.\n\n
+        2. Breakfast : Afer the temple visit, have breakfast at a local eatery. You can try some traditional dishes like Poha or Sabudana Khichdi</string>
+
+    <string name="ujjain2">Kal Bhairav Temple</string>
+    <string name="ujjain2_des">The Kal Bhairav temple is a Hindu temple located in the Ujjain city of Madhya Pradesh, India. It is dedicated to Kal Bhairav, the guardian deity of the city. Located on the banks of the Shipra River, it is one of the most active temples in the city, visited by hundreds of devotees daily.</string>
+    <string name="ujjain2_plan">Mid-Morning:\n\n3.Head to the Kal Bhaiarav Temple, which is situated close to the Mahakaleshwar Temple.\n\n4. Lunch : Enjoy a delicious vegetarian lunch at a local restaurant serving traditional Malva cuisine</string>
+
+    <string name="ujjain3">Harsiddhi Temple</string>
+    <string name="ujjain3_des">This temple occupies a special place in the galaxy of ancient sacred spots of Ujjain. Seated between the idols of Mahalaxmi and Mahasaraswati, the idol of Annapurna is painted in dark vermilion color. The Sri Yantra, the symbol of power or shakti, is also enshrined in the temple.According to the Shiva Purana, when Shiva carried away the burning body of Sati from the sacrificial fire, her elbow dropped at this place.</string>
+    <string name="ujjain3_plan">Afternoon:\n\n5. Visit the Harsiddhi Temple, another significant temple in Ujjain.</string>
+
+    <string name="ujjain4">Vikram Kirti Temple</string>
+    <string name="ujjain4_plan">6.Explore the Vikram Kirti Temple, a museum that displays artifacts related to the Paramara dynasty and the history of Ujjain.</string>
+
+    <string name="ujjain5">Chintaman Ganesh Temple</string>
+    <string name="ujjain5_plan">Evening:\n\n7. Visit the Cintaman Ganesh Temple, Known for its unique architecture and religious significance.\n\n8. Have dinner at a local restaurant or try some street food.</string>
+    <string name="ujjain_night">9. If you have time and interest in spirituality, you can participate in the evening Bhajan Sandhya at one of the temples.</string>
+
+
+    <!--Bhopal description-->
+    <string name="bhopal1">Upper Lake (Bada Talab)</string>
+    <string name="bhopal1_plan">Morning: Explore the natural beauty of Upper Lake(Bada Talab) and enjoy boating.</string>
+
+    <string name="bhopal2">Bhimbetka Caves</string>
+    <string name="bhopal2_plan">Afternoon: Visit the "Bhimbetka Caves", known for ancient rock paintings.</string>
+
+    <string name="bhopal3">Sanchi</string>
+    <string name="bhopal3_plan">Morning: Head to Sanchi to see the famous stupas, a UNESCO World Heritage Site.</string>
+
+    <string name="bhopal7">Bhojtal Lake</string>
+    <string name="bhopal7_des">Evening: Enjoy the evening at Bhojtal Lake</string>
+
+    <string name="bhopal4">Ashoka Pillar and Sanchi Museum</string>
+    <string name="bhopal4_plan">Afternoon: Visit the Ashoka Pillar and Sanchi Museum.</string>
+
+    <string name="bhopal5">Bhojeshwar Temple</string>
+    <string name="bhopal5_plan">Morning: Visit the ancient Bhojeshwar Temple in Bhojpur.</string>
+
+    <string name="bhopal6">Udayagiri Caves</string>
+    <string name="bhopal6_des">Evening: Explore Udayagiri Caves.</string>
+
+
+    <!--Gwalior Plan-->
+    <string name="gwalior1">Gwalior Fort</string>
+    <string name="gwalior1_plan">Morning: Begin your day by visiting the magnificent Gwalior Fort, known for its impressive architecture and rich history.</string>
+
+    <string name="gwalior2">Jai Vilas Palace &amp; Scindia Museum</string>
+    <string name="gwalior2_plan">Afternoon: Explore the Jai Vilas Palace and Scindia Museum, which houses an extensive collection of artifacts.</string>
+
+
+    <string name="gwalior3">Saas Bahu</string>
+    <string name="gwalior3_plan">Evening: Visit the Saas Bahu Temple and take a stroll at the Gwalior Zoo.</string>
+
+    <string name="gwalior4">Sun Temple</string>
+    <string name="gwalior4_plan">Morning: Head to the sun Temple for a serene and spiritual experience.</string>
+
+    <string name="gwalior5">Gujari Mahal</string>
+    <string name="gwalior5_plan">Afternoon: Discover the historical charm of Gujari Mahal Archaeological Museum.</string>
+
+    <string name="gwalior6">Light Show</string>
+    <string name="gwalior6_plan">Evening: Enjoy a light and sound show at Gwalior Fort to learn about its history.</string>
+
+    <string name="khajuraho1">Western Group of Temple</string>
+    <string name="khajuraho1_plan">Morning: Begin your day by visiting the Western Group of Temples, including the renowned Laxman Temple, Kandariya Mahadev Temple, and Matageshwar Temple.</string>
+
+    <string name="khajuraho2">Eastern Group of Temples</string>
+    <string name="khajuraho2_plan">Afternoon: Explore the Eastern Group of Temples, featuring the Parsvanath Temple, Ghantai Temple, and Adinath Temple.</string>
+
+    <string name="khajuraho3">Light Show</string>
+    <string name="khajuraho3_plan">Evening: Enjoy the light and sound show at the Western Group of Temples to learn about the history and signinficance of Khajuraho\'s temples.</string>
+
+    <string name="khajuraho4">Southern Group of Temples</string>
+    <string name="khajuraho4_plan">Morning: Visit the Southern Group of Temples, which includes the Dulhadev Temple, Chaturbhuj Temple, and Beejamandal Temple.</string>
+
+    <string name="khajuraho5">Khajuraho Dance Festival</string>
+    <string name="khajuraho5_plan">Afternoon: Take a break from temple visits to explore the khajuraho Dance Festival, if it\'s happening during your visit(usually in February).</string>
+
+    <string name="khajuraho6">Market</string>
+    <string name="khajuraho6_plan">Evening: Explore the local market, shop for souvenirs, and savor traditional cuisine at local restaurants.</string>
+
 
 </resources>

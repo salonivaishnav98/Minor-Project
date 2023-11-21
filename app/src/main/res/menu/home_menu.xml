@@ -2,13 +2,19 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-  <!--  <item
+ <!-- <item
         android:id="@+id/search_icon"
         android:title="search"
         android:icon="@drawable/search_icon"
         app:showAsAction="ifRoom|collapseActionView"
         app:actionViewClass="com.google.android.material.search.SearchView"/>-->
 
+    <item
+        android:id="@+id/Website"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:title="Website"
+        />
     <item
         android:id="@+id/plan_trip"
         android:layout_width="wrap_content"

@@ -1,33 +1,30 @@
 package com.example.mpedia;
 
-import static com.example.mpedia.R.color.purple;
-
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
-import android.widget.ListView;
 import android.widget.SearchView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    SearchView search_city;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
-    ImageButton experienceMP, events, touristattraction,photosbtn,tourist_attraction_forts,tourist_attraction_wildlife,tourist_attraction_nature,tourist_attraction_spirituals, explore_textiles,explore_lihghtshow,explore_food,explore_Dance,explore_adventure,fvrt_panchmarhi,fvrt_bhedghat,fvrt_mandav,fvrt_maheshwar,fvrt_khaajuraho;
+import java.util.Objects;
+
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+    //SearchView search_city;
+
+    ImageButton experienceMP, events, touristattraction,photosbtn,plan_trip,tourist_attraction_forts,tourist_attraction_wildlife,tourist_attraction_nature,tourist_attraction_spirituals, explore_textiles,explore_lihghtshow,explore_food,explore_Dance,explore_adventure,fvrt_panchmarhi,fvrt_bhedghat,fvrt_mandav,fvrt_maheshwar,fvrt_khaajuraho,indore,ujjain,bhopal,gwalior,khajuaho;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_02_main);
-        getSupportActionBar().setTitle("Tour MPedia");
+        Objects.requireNonNull(getSupportActionBar()).setTitle("Tour MPedia");
         
 
 
@@ -41,6 +38,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         touristattraction = (ImageButton) findViewById(R.id.touristattraction);
         touristattraction.setOnClickListener(this);
+
+        plan_trip = (ImageButton) findViewById(R.id.plan_trip);
+        plan_trip.setOnClickListener(this);
 
         photosbtn = (ImageButton) findViewById(R.id.photosbtn);
         photosbtn.setOnClickListener(this);
@@ -87,6 +87,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         fvrt_khaajuraho = (ImageButton) findViewById(R.id.fvrt_khaajuraho);
         fvrt_khaajuraho.setOnClickListener(this);
 
+        indore = (ImageButton) findViewById(R.id.indore);
+        indore.setOnClickListener(this);
+
+        ujjain = (ImageButton) findViewById(R.id.ujjain);
+        ujjain.setOnClickListener(this);
+
+        bhopal = (ImageButton) findViewById(R.id.bhopal);
+        bhopal.setOnClickListener(this);
+
+        gwalior = (ImageButton) findViewById(R.id.gwalior);
+        gwalior.setOnClickListener(this);
+
+        khajuaho = (ImageButton) findViewById(R.id.khajuraho);
+        khajuaho.setOnClickListener(this);
 
     }
 
@@ -100,6 +114,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+
+        if(item.getItemId() == R.id.Website){
+            Website();
+        }
 
         if(item.getItemId() == R.id.plan_trip){
             Plan_Trip();
@@ -120,16 +138,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent1 = new Intent(this, LogIn.class);
         startActivity(intent1);
     }
+    public void Website(){
+        Intent intent1 = new Intent(this, Website.class);
+        startActivity(intent1);
+    }
 
 
     @Override
     public void onClick(View v) {
 
-        //if(v.getId() == R.id.searchview){SearchCity();}
+       // if(v.getId() == R.id.search_city){SearchCity();}
         if(v.getId() == R.id.experienceMP){ExperienceMP();}
         if(v.getId() == R.id.events){Events();}
         if(v.getId() == R.id.touristattraction){Tourist_Attraction();}
         if(v.getId() == R.id.photosbtn){Photos();}
+        if(v.getId() == R.id.plan_trip){Plan_Trip();}
         if(v.getId() == R.id.tourist_attraction_forts){FortsAndPlaces();}
         if(v.getId() == R.id.tourist_attraction_wildlife){Forest_And_Wildife();}
         if(v.getId() == R.id.tourist_attraction_nature){Nature();}
@@ -144,15 +167,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(v.getId() == R.id.fvrt_mandav){Fort_Mandav();}
         if(v.getId() == R.id.fvrt_maheshwar){Spiritual_Maheshwar();}
         if(v.getId() == R.id.fvrt_khaajuraho){Spiritual_Khajuraho();}
+        if(v.getId() == R.id.indore){Destination_Indore();}
+        if(v.getId() == R.id.ujjain){Destination_Ujjain();}
+        if(v.getId() == R.id.bhopal){Destination_Bhopal();}
+        if(v.getId() == R.id.gwalior){Destination_Gwalior();}
+        if(v.getId() == R.id.khajuraho){Destination_Khajuraho();}
+
 
 
 
     }
-//    public void SearchCity(){
-//        Intent intent1 = new Intent(this, SearchCity.class);
-//        startActivity(intent1);
 
-   // }
     public void ExperienceMP(){
         Intent intent1 = new Intent(this, ExperienceMP.class);
         startActivity(intent1);
@@ -170,6 +195,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void Photos(){
         Intent intent2 = new Intent(this, Photos.class);
         startActivity(intent2);
+
     }
     public void FortsAndPlaces(){
         Intent intent2 = new Intent(this, FortsAndPlaces.class);
@@ -224,6 +250,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     public void Fort_Mandav(){
         Intent intent2 = new Intent(this, Fort_Mandav.class);
+        startActivity(intent2);
+    }
+    public void Destination_Indore(){
+        Intent intent2 = new Intent(this, Destination_Indore.class);
+        startActivity(intent2);
+    }
+    public void Destination_Ujjain(){
+        Intent intent2 = new Intent(this, Destination_Ujjain.class);
+        startActivity(intent2);
+    }public void Destination_Gwalior(){
+        Intent intent2 = new Intent(this, Destination_Gwalior.class);
+        startActivity(intent2);
+    }public void Destination_Bhopal(){
+        Intent intent2 = new Intent(this, Destination_Bhopal.class);
+        startActivity(intent2);
+    }public void Destination_Khajuraho(){
+        Intent intent2 = new Intent(this, Destination_Khajuraho.class);
         startActivity(intent2);
     }
 

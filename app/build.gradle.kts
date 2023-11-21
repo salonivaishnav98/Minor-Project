@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.mpedia"
-        minSdk = 28
+        minSdk = 19
         //noinspection OldTargetApi
         targetSdk = 34
         versionCode = 1

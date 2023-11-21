@@ -4,14 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Train_Booking0"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:background="@drawable/background_nude">
-    <LinearLayout
+    tools:context=".Ticket_Flight">
+    <WebView
+        android:id="@+id/webview_flight"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/transparent">
-    </LinearLayout>
+        />
+
 
 </LinearLayout>

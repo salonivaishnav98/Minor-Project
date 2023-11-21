@@ -4,12 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Indore_Plan extends AppCompatActivity {
+public class Plan_Gwalior extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_indore_plan);
-        getSupportActionBar().setTitle("Indore");
+        setContentView(R.layout.plan_gwalior);
+        getSupportActionBar().setTitle("Gwalior");
     }
 }

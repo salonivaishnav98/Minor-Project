@@ -25,6 +25,7 @@
             android:padding="10dp"
             />
         <RadioGroup
+            android:id="@+id/citi_radioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
@@ -56,35 +57,12 @@
                 android:id="@+id/city5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/Panchmarhi"
-                android:textSize="18sp"/>
-            <RadioButton
-                android:id="@+id/city6"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:text="@string/Khajuraho"
-                android:textSize="18sp"/>
-            <RadioButton
-                android:id="@+id/city7"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/jabalpur"
-                android:textSize="18sp"/>
-            <RadioButton
-                android:id="@+id/city8"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/Maheshwar"
-                android:textSize="18sp"/>
-            <RadioButton
-                android:id="@+id/city9"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/Omkareshwar"
                 android:textSize="18sp"/>
 
         </RadioGroup>
-        <Button
+    <Button
+            android:id="@+id/plan_trip_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"

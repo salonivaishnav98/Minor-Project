@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Indore_Plan"
+    tools:context=".Plan_Indore"
+    android:background="@drawable/background_nude"
     android:orientation="vertical"
     >
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/transparent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -23,7 +25,7 @@
                 android:text="Day 1"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:background="@drawable/upper"
+                android:background="#A4FFFFFF"
                 android:layout_margin="10dp"
                 android:padding="5dp"
                 android:fontFamily="sans-serif-medium"
@@ -32,17 +34,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                >
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/Annapurna"
+                    android:background="@color/transparent"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    android:layout_margin="10dp"/>
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
@@ -55,7 +58,8 @@
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
                     android:padding="5dp"
-                    android:layout_marginLeft="5dp"
+                    android:background="#A4FFFFFF"
+                    android:layout_margin="10dp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:text="@string/annapurna_des"/>
@@ -64,15 +68,15 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/Gulawat"
                     android:textAlignment="center"
                     android:textSize="20sp"
+                    android:background="@color/transparent"
+                    android:layout_margin="10dp"
                     android:padding="5dp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
@@ -87,7 +91,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#D5FFFFFF"
                     android:padding="5dp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
@@ -97,9 +102,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -107,6 +110,8 @@
                     android:padding="5dp"
                     android:textAlignment="center"
                     android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:background="@color/transparent"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
                 <ImageView
@@ -120,7 +125,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B9FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:padding="5dp"
@@ -129,14 +135,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/Sarafa"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#ADFFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:textAlignment="center"
@@ -152,10 +158,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:padding="5dp"
+                    android:background="#B7FFFFFF"
                     android:text="@string/Sarafa_des"/>
             </LinearLayout>
 
@@ -165,7 +172,7 @@
                 android:text="Day 2"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:background="@drawable/upper"
+                android:background="#B2FFFFFF"
                 android:layout_margin="10dp"
                 android:padding="5dp"
                 android:fontFamily="sans-serif-medium"
@@ -174,9 +181,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -184,6 +189,8 @@
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
                 <ImageView
@@ -200,16 +207,15 @@
                     android:padding="5dp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:text="@string/Khajarana_des"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -217,6 +223,8 @@
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     />
@@ -231,7 +239,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:padding="5dp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
@@ -242,13 +251,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                >
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/PhoenixCitadel"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:fontFamily="sans-serif-medium"
@@ -264,7 +274,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:padding="5dp"
@@ -273,14 +284,14 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/KanchMandir"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:fontFamily="sans-serif-medium"
@@ -299,21 +310,22 @@
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:padding="5dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:text="@string/Khajarana_des"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/ClothMarket"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:fontFamily="sans-serif-medium"
@@ -329,7 +341,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:padding="5dp"
@@ -343,8 +356,8 @@
                 android:text="Day 3"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:background="@drawable/upper"
                 android:layout_margin="10dp"
+                android:background="#B2FFFFFF"
                 android:padding="5dp"
                 android:fontFamily="sans-serif-medium"
                 android:textColor="@color/black"/>
@@ -352,9 +365,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -362,6 +373,8 @@
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
                 <ImageView
@@ -378,16 +391,15 @@
                     android:padding="5dp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:text="@string/ralamandal_des"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -395,6 +407,8 @@
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
                 <ImageView
@@ -408,7 +422,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:padding="5dp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
@@ -418,9 +433,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -428,6 +441,8 @@
                     android:padding="5dp"
                     android:textAlignment="center"
                     android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
                 <ImageView
@@ -441,7 +456,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:padding="5dp"
@@ -454,8 +470,8 @@
                 android:text="Day 4"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:background="@drawable/upper"
                 android:layout_margin="10dp"
+                android:background="#B2FFFFFF"
                 android:padding="5dp"
                 android:fontFamily="sans-serif-medium"
                 android:textColor="@color/black"/>
@@ -463,9 +479,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -473,6 +487,8 @@
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
                 <ImageView
@@ -489,7 +505,8 @@
                     android:padding="5dp"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:text="@string/patalpani_des"/>
             </LinearLayout>
 
@@ -506,6 +523,8 @@
                     android:textAlignment="center"
                     android:textSize="20sp"
                     android:padding="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
                 <ImageView
@@ -519,7 +538,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:padding="5dp"
@@ -533,8 +553,8 @@
                 android:text="Day 5"
                 android:textAlignment="center"
                 android:textSize="20sp"
-                android:background="@drawable/upper"
                 android:layout_margin="10dp"
+                android:background="#B2FFFFFF"
                 android:padding="5dp"
                 android:fontFamily="sans-serif-medium"
                 android:textColor="@color/black"/>
@@ -542,9 +562,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -553,6 +571,8 @@
                     android:padding="5dp"
                     android:textAlignment="center"
                     android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
                 <ImageView
@@ -566,7 +586,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:padding="5dp"
@@ -576,9 +597,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:background="@drawable/upper"
-                android:layout_margin="10dp">
+                android:orientation="vertical">
 
                 <TextView
                     android:layout_width="match_parent"
@@ -587,6 +606,8 @@
                     android:padding="5dp"
                     android:textAlignment="center"
                     android:textSize="20sp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"/>
                 <ImageView
@@ -601,7 +622,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="15sp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_margin="10dp"
+                    android:background="#B2FFFFFF"
                     android:fontFamily="sans-serif-medium"
                     android:textColor="@color/black"
                     android:padding="5dp"

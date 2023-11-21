@@ -41,29 +41,41 @@ public class Create_Account extends AppCompatActivity {
                 String repass = new_confirm_password.getText().toString();
                 String no = phone_no.getText().toString();
 
-                if(user.equals("")||pass.equals("")||repass.equals("")||phone_no.equals(""))
+
+//                final String getMobileText = phone_no.getText().toString();
+//                final String getEmailTxt = new_username.getText().toString();
+//
+//                Intent intent = new Intent(Create_Account.this, OTP_Verification.class);
+//                intent.putExtra("mobile", getMobileText);
+//                intent.putExtra("email", getEmailTxt);
+//                startActivity(intent);
+
+
+                if (user.equals("") || pass.equals("") || repass.equals(""))
                     Toast.makeText(Create_Account.this, "Please enter all the fields", Toast.LENGTH_SHORT).show();
-                else{
-                    if(pass.equals(repass)){
+                else {
+                    if (pass.equals(repass)) {
                         Boolean checkuser = DB.chackusername(user);
-                        if(checkuser == false){
+                        if (checkuser == false) {
+
                             Boolean insert = DB.insertData(user, pass);
-                            if(insert == true){
+
+                            if (insert == true) {
                                 Toast.makeText(Create_Account.this, "Account created successfully!", Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(getApplicationContext(),BookTicket.class);
-                                startActivity(intent);
-                            }
-                            else{
+                                Intent intent1 = new Intent(getApplicationContext(),BookTicket.class);
+                                startActivity(intent1);
+                                //new OTP_Verification();
+                            } else {
                                 Toast.makeText(Create_Account.this, "Something went wrong!\nTry again Later", Toast.LENGTH_SHORT).show();
                             }
-                        }
-                        else{
+                        } else {
                             Toast.makeText(Create_Account.this, "User alreay exists! please Sign-in", Toast.LENGTH_SHORT).show();
                         }
-                    }else{
+                    } else {
                         Toast.makeText(Create_Account.this, "Password not matching", Toast.LENGTH_SHORT).show();
                     }
                 }
+
 
             }
         });
@@ -71,10 +83,11 @@ public class Create_Account extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent intent = new Intent(getApplicationContext(),LogIn.class);
+                Intent intent = new Intent(getApplicationContext(), LogIn.class);
                 startActivity(intent);
             }
         });
-
     }
+
+
 }
